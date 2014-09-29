@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7bcc0b00-93b7-4da9-9488-622c9875bde3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/1-col-portfolio.css" afterPath="$PROJECT_DIR$/css/1-col-portfolio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
     </list>
     <ignored path="undeadblow.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/css/1-col-portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.11425462" vertical-offset="0" max-vertical-offset="919">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -48,8 +49,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5185184" vertical-offset="17932" max-vertical-offset="93135">
-              <caret line="1209" column="12" selection-start-line="1209" selection-start-column="12" selection-end-line="1209" selection-end-column="12" />
+            <state vertical-scroll-proportion="-11.962963" vertical-offset="17932" max-vertical-offset="93135">
+              <caret line="1217" column="10" selection-start-line="1217" selection-start-column="10" selection-end-line="1217" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -204,14 +205,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5185184" vertical-offset="17932" max-vertical-offset="93135">
-          <caret line="1209" column="12" selection-start-line="1209" selection-start-column="12" selection-end-line="1209" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8235295" vertical-offset="0" max-vertical-offset="2880">
@@ -220,10 +213,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.962963" vertical-offset="17932" max-vertical-offset="93135">
+          <caret line="1217" column="10" selection-start-line="1217" selection-start-column="10" selection-end-line="1217" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/1-col-portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11425462" vertical-offset="0" max-vertical-offset="919">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
