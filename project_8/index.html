@@ -13,7 +13,7 @@
         var all_imges = document.getElementsByClassName("img-responsive portfolio-item");
         for (var i in all_imges) {
             if (all_imges[i].src == elem.src) {
-                if (i < (all_imges.length - 1))     elem.src = all_imges[i + 1].src;
+                if (i < (all_imges.length - 1))     elem.src = all_imges[i++].src;
                 else                                elem.src = all_imges[0].src;
             }
         }
