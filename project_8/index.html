@@ -102,6 +102,79 @@
         <div class="row">
 
 	<script>
+        function enlargeimage(x)
+        {
+            var a = document.getElementById('_enlargeimg');
+            a.style.height = x + '%';
+            a.style.width = x + '%';
+            x++;
+            if (x < 90)
+            { setTimeout("enlargeimage(\"" + x + "\")", 5);}
+        }
+
+        function reduceimage(x)
+        {
+            var a = document.getElementById('_enlargeimg');
+            a.style.height = x + '%';
+            a.style.width = x + '%';
+            x--;
+
+            if (x > 0)
+            { setTimeout("reduceimage(\"" + x + "\")", 5);}
+            else
+            {
+                b = document.getElementById('_enlargediv');
+                c = document.getElementById('_enlargetable');
+                b.parentNode.removeChild(b);
+                c.parentNode.removeChild(c);
+                document.body.style.overflow = 'auto';
+            }
+        }
+        function createelements(imgfile)
+        {
+
+            var divbackground = document.createElement('div');
+            divbackground.setAttribute('id', '_enlargediv');
+            divbackground.style.width  = '100%';
+            divbackground.style.height = '100%';
+            divbackground.style.position= 'absolute';
+            divbackground.style.background= '#000';
+            divbackground.style.left= '0';
+            divbackground.style.top= '0';
+            divbackground.style.opacity= 0.7;
+            divbackground.style.zIndex= '1';
+
+            document.body.appendChild(divbackground);
+
+            var tblbackground = document.createElement('table');
+            tblbackground.setAttribute('id', '_enlargetable')
+            tblbackground.style.width  = '100%';
+            tblbackground.style.height = '100%';
+            tblbackground.style.position= 'absolute';
+            tblbackground.style.left= '0';
+            tblbackground.style.top= '0';
+            tblbackground.style.zIndex= '2';
+            tblbackground.style.textAlign = 'center';
+            tblbackground.style.verticalAlign = 'middle';
+            tblbackground.setAttribute('onClick', 'reduceimage(90)');
+
+            var tr = tblbackground.insertRow();
+            var td = tr.insertCell();
+
+            var nimg = document.createElement('img');
+            nimg.setAttribute('src', imgfile);
+            nimg.setAttribute('id', '_enlargeimg');
+            nimg.style.width='0px';
+            nimg.style.height='0px'
+            nimg.style.borderRadius = '5px';
+
+            td.appendChild(nimg);
+
+            document.body.appendChild(tblbackground);
+            document.body.style.overflow = 'hidden';
+
+            enlargeimage(0);
+        }
 function change(elem) {
     var mn = document.getElementById("main_img");
 var mn_src = mn.src;
@@ -113,9 +186,9 @@ elem.src = mn_src;
             <div class="col-lg-12">
                 <h3 class="page-header">Related Projects</h3>
             </div>
-            <div class="col-sm-3 col-xs-6"">
+            <div class="col-sm-3 col-xs-6">
 <a>
-                    <img class="img-responsive portfolio-item" src="http://i.picresize.com/images/2014/09/29/CSpsz.jpg" onclick="change(this)">
+                    <img class="img-responsive portfolio-item" src="http://i.picresize.com/images/2014/09/29/CSpsz.jpg" onclick="createelements(this.src)">
 </a>
             </div>
 
