@@ -15,12 +15,11 @@
             if (all_imges[i].src == elem.src) {
                 if (i < (all_imges.length - 1)) {
                     elem.src = all_imges[++i].src;
-                    break;
                 }
                 else {
                     elem.src = all_imges[0].src;
-                    break;
                 }
+                break;
             }
         }
     }
