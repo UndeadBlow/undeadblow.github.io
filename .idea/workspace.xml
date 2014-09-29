@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bcc0b00-93b7-4da9-9488-622c9875bde3" name="Default" comment="" />
+    <list default="true" id="7bcc0b00-93b7-4da9-9488-622c9875bde3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ulmart/index.html" afterPath="$PROJECT_DIR$/Ulmart/index.html" />
+    </list>
     <ignored path="undeadblow.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ulmart/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45516458" vertical-offset="1429" max-vertical-offset="3135">
-              <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.37003404" vertical-offset="1249" max-vertical-offset="3165">
+              <caret line="105" column="100" selection-start-line="105" selection-start-column="100" selection-end-line="105" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -317,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ulmart/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45516458" vertical-offset="1429" max-vertical-offset="3135">
-          <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.37003404" vertical-offset="1249" max-vertical-offset="3165">
+          <caret line="105" column="100" selection-start-line="105" selection-start-column="100" selection-end-line="105" selection-end-column="100" />
           <folding />
         </state>
       </provider>
