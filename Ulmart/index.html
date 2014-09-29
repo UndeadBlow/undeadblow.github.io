@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<style>
+    a { cursor: pointer; }
+</style>
+
+<html lang="ru">
+
+<script>
+    function setImageAsMain(elem) {
+        var main_img = document.getElementById("main_img");
+        main_img.src = elem.src;
+    }
+
+    function showNextImage(elem) {
+        var all_imges = document.getElementsByClassName("img-responsive portfolio-item");
+        for (var i in all_imges) {
+            if (all_imges[i].src == elem.src) {
+                if (i < (all_imges.length - 1)) {
+                    elem.src = all_imges[++i].src;
+                }
+                else {
+                    elem.src = all_imges[0].src;
+                }
+                break;
+            }
+        }
+    }
+</script>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio Item - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://undeadblow.github.io/">Домой</a>
+            </div>
+<!--            &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>-->
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">ЮлмартМониторинг
+                    <small>C++ Qt</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-8">
+                <img class="img-responsive" src="../1.png" id="main_img" onclick="showNextImage(this)">
+            </div>
+
+            <div class="col-md-4">
+                <h3>Описание программы</h3>
+                <p>Программа ЮлмартМониторинг была написана мною в целях самообучения C++ Qt. Конечно, для подобной задачи больше подходят скрипты (Python или Javascript), но в то время я только учился работе с замечательной C++ библиотекой Qt и мне хотелось опробовать ее в деле. Кроме того, я был постоянным покупателем в Юлмарте, и часто бывало, что я не успевал заказать товар до того, как он кончится на складе. Поэтому захотелось использовать свои навыки для автоматизации процесса мониторинга.<br>
+                Программа обладает большим функционалом: помимо основных функций мониторинга состояния товара (его цены, количества на каждом указанном для мониторинга складе, наличия), программа умеет хранить историю о цене товара и его количестве, строить изменения цены во времени, сообщать об изменениях состояния звуковым сигналом и уведомлениями в трей, выделять цветом товары с изменившимся состоянием и прочее.
+                В качестве СУБД в проекте использовался SQLite, который позволил хранить данные и управлять ими при помощи всего одного файла.</p>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">Related Projects</h3>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="../1.png" onclick="setImageAsMain(this)">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="../2.png" onclick="setImageAsMain(this)">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="../3.png" onclick="setImageAsMain(this)">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="../4.png" onclick="setImageAsMain(this)">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="../5.png" onclick="setImageAsMain(this)">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="../6.png" onclick="setImageAsMain(this)">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="../7.png" onclick="setImageAsMain(this)">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="../8.png" onclick="setImageAsMain(this)">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="../9.png" onclick="setImageAsMain(this)">
+                </a>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
