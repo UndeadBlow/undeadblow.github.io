@@ -14,8 +14,8 @@
         window.alert("got " + all_imges.length  + " images");
         for (var i in all_imges) {
             if (all_imges[i].src == elem.src) {
-                window.alert("image " + i  + " src=" + all_imges[i].src + " elem src=" + elem.src);
-                if (i < (all_imges.length - 1))    elem.src = all_imges[i + 1].src;
+                window.alert("image " + i  + " src=" + all_imges[i].src + " elem src=" + elem.src + " bool=" + (all_imges[i].src == elem.src));
+                if (i < (all_imges.length - 1))     elem.src = all_imges[i + 1].src;
                 else                                elem.src = all_imges[0].src;
             }
         }
