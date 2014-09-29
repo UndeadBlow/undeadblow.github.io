@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bcc0b00-93b7-4da9-9488-622c9875bde3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project_8/index.html" afterPath="$PROJECT_DIR$/project_8/index.html" />
-    </list>
+    <list default="true" id="7bcc0b00-93b7-4da9-9488-622c9875bde3" name="Default" comment="" />
     <ignored path="undeadblow.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
