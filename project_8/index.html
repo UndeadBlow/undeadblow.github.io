@@ -13,7 +13,8 @@
         var all_imges = document.getElementsByClassName("img-responsive portfolio-item");
         for (var i in all_imges) {
             if (all_imges[i].src == elem.src) {
-                if ((i + 0.0) < (all_imges.length - 1))     {
+                window.alert("bool: " + i < (all_imges.length - 1)));
+                if (i < (all_imges.length - 1))     {
                     elem.src = all_imges[++i].src;
                 }
                 else                                {
