@@ -12,7 +12,6 @@
     function showNextImage(elem) {
         var all_imges = document.getElementsByClassName("img-responsive portfolio-item");
         for (var i in all_imges) {
-            window.alert("here " + i + " length: " + all_imges.length);
             if (all_imges[i].src == elem.src) {
                 if (i < (all_imges.length - 1)) {
                     elem.src = all_imges[++i].src;
@@ -140,13 +139,13 @@
 
             <div class="col-sm-3 col-xs-6">
                 <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" onclick="setImageAsMain(this)">
+                    <img class="img-responsive portfolio-item" src="http://i.picresize.com/images/2014/09/29/CSpsz.jpg" onclick="setImageAsMain(this)">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6">
                 <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://i.picresize.com/images/2014/09/29/CSpsz.jpg" onclick="setImageAsMain(this)">
+                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" onclick="setImageAsMain(this)">
                 </a>
             </div>
         </div>
