@@ -12,6 +12,7 @@
     function showNextImage(elem) {
         var all_imges = document.getElementsByClassName("img-responsive portfolio-item");
         for (var i in all_imges) {
+            window.alert("here " + i + " length: " + all_imges.length);
             if (all_imges[i].src == elem.src) {
                 if (i < (all_imges.length - 1)) {
                     elem.src = all_imges[++i].src;
