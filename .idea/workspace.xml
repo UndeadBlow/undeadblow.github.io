@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bcc0b00-93b7-4da9-9488-622c9875bde3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMF/1.png" afterPath="$PROJECT_DIR$/AMF/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenTranslate/1.png" afterPath="$PROJECT_DIR$/OpenTranslate/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMF/2.png" afterPath="$PROJECT_DIR$/AMF/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenTranslate/3.png" afterPath="$PROJECT_DIR$/OpenTranslate/3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMF/index.html" afterPath="$PROJECT_DIR$/AMF/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenTranslate/index.html" afterPath="$PROJECT_DIR$/OpenTranslate/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pandemic/index.html" afterPath="$PROJECT_DIR$/Pandemic/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ulmart/index.html" afterPath="$PROJECT_DIR$/Ulmart/index.html" />
     </list>
     <ignored path="undeadblow.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,48 +28,18 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37003404" vertical-offset="1609" max-vertical-offset="2610">
-              <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.9659864" vertical-offset="1488" max-vertical-offset="2880">
+              <caret line="156" column="319" selection-start-line="156" selection-start-column="319" selection-end-line="156" selection-end-column="319" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ulmart/index.html">
+        <entry file="file://$PROJECT_DIR$/cclean/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0392158" vertical-offset="271" max-vertical-offset="3165">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pandemic/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.509804" vertical-offset="271" max-vertical-offset="3000">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AMF/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6862745" vertical-offset="316" max-vertical-offset="2790">
-              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenTranslate/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.862745" vertical-offset="1261" max-vertical-offset="3300">
-              <caret line="121" column="130" selection-start-line="121" selection-start-column="130" selection-end-line="121" selection-end-column="130" />
+            <state vertical-scroll-proportion="-8.235294" vertical-offset="1305" max-vertical-offset="2445">
+              <caret line="115" column="154" selection-start-line="115" selection-start-column="154" selection-end-line="115" selection-end-column="154" />
               <folding />
             </state>
           </provider>
@@ -102,15 +64,17 @@
         <option value="$PROJECT_DIR$/Pandemic/index.html" />
         <option value="$PROJECT_DIR$/Ulmart/index.html" />
         <option value="$PROJECT_DIR$/AMF/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/OpenTranslate/index.html" />
+        <option value="$PROJECT_DIR$/cclean/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1922" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -166,7 +130,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenTranslate" />
+              <option name="myItemId" value="cclean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,14 +200,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
+    <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.181439" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -350,9 +314,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AMF/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27953216" vertical-offset="316" max-vertical-offset="2790">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pandemic/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.509804" vertical-offset="271" max-vertical-offset="3000">
+        <state vertical-scroll-proportion="0.20935673" vertical-offset="271" max-vertical-offset="3000">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
@@ -360,32 +332,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ulmart/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0392158" vertical-offset="271" max-vertical-offset="3165">
+        <state vertical-scroll-proportion="0.12163743" vertical-offset="271" max-vertical-offset="3165">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AMF/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6862745" vertical-offset="316" max-vertical-offset="2790">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenTranslate/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.862745" vertical-offset="1261" max-vertical-offset="3300">
+        <state vertical-scroll-proportion="0.6281179" vertical-offset="1261" max-vertical-offset="3300">
           <caret line="121" column="130" selection-start-line="121" selection-start-column="130" selection-end-line="121" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cclean/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.235294" vertical-offset="1305" max-vertical-offset="2445">
+          <caret line="115" column="154" selection-start-line="115" selection-start-column="154" selection-end-line="115" selection-end-column="154" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37003404" vertical-offset="1609" max-vertical-offset="2610">
-          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.9659864" vertical-offset="1488" max-vertical-offset="2880">
+          <caret line="156" column="319" selection-start-line="156" selection-start-column="319" selection-end-line="156" selection-end-column="319" />
           <folding />
         </state>
       </provider>
