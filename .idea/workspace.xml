@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7bcc0b00-93b7-4da9-9488-622c9875bde3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMF/index.html" afterPath="$PROJECT_DIR$/AMF/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenTranslate/index.html" afterPath="$PROJECT_DIR$/OpenTranslate/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pandemic/index.html" afterPath="$PROJECT_DIR$/Pandemic/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ulmart/index.html" afterPath="$PROJECT_DIR$/Ulmart/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cclean/index.html" afterPath="$PROJECT_DIR$/cclean/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="undeadblow.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8469388" vertical-offset="843" max-vertical-offset="2895">
-              <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.4931973" vertical-offset="0" max-vertical-offset="2910">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -387,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8469388" vertical-offset="843" max-vertical-offset="2895">
-          <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.4931973" vertical-offset="0" max-vertical-offset="2910">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
       </provider>
