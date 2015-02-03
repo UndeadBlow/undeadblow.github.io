@@ -63,7 +63,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 				<p>2010-2014 - Russian Saint-Petersburg State Institute of Technology</p>
 			</li>
 			<li>
-				<h4>Improvement of professional skill</h4>
+				<h4>Improvement of professional skill - Bioinformatics</h4>
 				<p>2014-2015 - <a href="http://bioinformaticsinstitute.ru/en/">Bioinformatis Intitute</a></p>
 			</li>
 		</ul>
