@@ -1,0 +1,66 @@
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: pygments
+
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title
+
+# Setup
+title:            'Kuprashevich Maksim'
+tagline:          'Portfolio'
+description:      'Portfolio'
+url:              'http://localhost:4000/' 
+#http://undeadblow.github.io/
+baseurl:          ''
+
+# Navigation
+navigation:
+- text: About
+  url: /about/
+- text: Resume
+  url: /resume/
+- text: Portfolio
+  url: /portfolio/
+
+# Author Details
+author:         'Kuprashevich Maksim'
+linkedin:       'https://www.linkedin.com/pub/maksim-kuprashevich/80/a96/183'
+facebook:       'https://www.facebook.com/undeadblow'
+gplus:          'https://plus.google.com/u/0/+%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%93%D0%BE%D1%80%D0%B8%D0%BD'
+vk:				'https://vk.com/undeadblow'
+stackoverflow:  'http://stackoverflow.com/users/1781448/undeaddragon'
+github:			'https://github.com/UndeadBlow'
+coursera:		'https://www.coursera.org/user/i/3d260af9023ceff05012c1fef7f8b085'
+
+# Google Analytics
+#gahandler: 'UA-52149651-1'
+
+#if footer-links-visible is 'true' the svg-icons will be shown top on the copy right. 
+#else the svg icons will not exist
+footersvg: 'true'
+
+footer-links:
+  dribbble: 
+  email: 'undeadblow@gmail.com'
+  facebook: undeadblow
+  flickr: 
+  github: UndeadBlow
+  instagram: 
+  #linkedin: maksim-kuprashevich/80/a96/183
+  pinterest:
+  #rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  #google: '+МаксимГорин'
+  stackoverflow: users/1781448/undeaddragon
+  vk: 'https://vk.com/undeadblow'
+
+# Disqus
+disqushandler: 'testingblogo'
+
+# Blog Configurations
+paginate: 10 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+destination: ./_site
+
+# Custom vars
+version:          0.7.10
