@@ -25,6 +25,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 					<li class="list-group-item">C++ since 2011</li>
 					<li class="list-group-item">Qt since 2011</li>
 					<li class="list-group-item">Python since 2013</li>
+					<li class="list-group-item">STL, Boost</li>
 					<li class="list-group-item active"><h4><strong>Also have some experience:</strong></h4></li>
 					<li class="list-group-item">C</li>
 					<li class="list-group-item">C#</li>
