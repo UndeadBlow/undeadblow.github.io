@@ -15,7 +15,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 <!-- Skills -->
 <section class="row">
 	<header class="col-md-3">
-		<h3 style="text-transform:uppercase;color:gray">Skills</h3>
+		<h3 style="text-transform:uppercase;color:gray">Skills and knowledges</h3>
 	</header>
 	<div class="col-md-9">
 		<div class="row">
@@ -26,6 +26,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 					<li class="list-group-item">Qt since 2011</li>
 					<li class="list-group-item">Python since 2013</li>
 					<li class="list-group-item active"><h4><strong>Also have some experience:</strong></h4></li>
+					<li class="list-group-item">C</li>
 					<li class="list-group-item">C#</li>
 					<li class="list-group-item">Java</li>
 					<li class="list-group-item">R</li>
@@ -33,20 +34,22 @@ I am learn quickly and always take my business seriously, have a high logical th
 					<li class="list-group-item">Javascript</li>
 					<li class="list-group-item">CSS</li>
 					<li class="list-group-item">SQL</li>
+					<li class="list-group-item">QML</li>
+					<li class="list-group-item">Visual Basic</li>
 				</ul>
 			</div>
 			<div class="col-md-6">
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Technologies skills</strong></h4></li>
 					<li class="list-group-item">Git, SVN</li>
-					<li class="list-group-item">WinAPI</li>
-					<li class="list-group-item">DLL & LIB Developing</li>
+					<li class="list-group-item">WinAPI, COM</li>
+					<li class="list-group-item">DLL & LIB</li>
 					<li class="list-group-item">nmake, cmake, qmake, make</li>
-					<li class="list-group-item">Qt Creator, Visual Stuido, WebStorm, PyCharm, Eclipse, R Studio, etc</li>
+					<li class="list-group-item">Qt Creator, Visual Studio, WebStorm, PyCharm, Eclipse, R Studio, etc</li>
 					<li class="list-group-item">CppCheck, PVS-Studio, Valgrind</li>
 					<li class="list-group-item">NSIS</li>
 					<li class="list-group-item">CppCheck, PVS-Studio, Valgrind</li>
-					<li class="list-group-item">Network (XML, JSON, API and many other work experience)</li>
+					<li class="list-group-item">Network (XML, JSON, API and other experience)</li>
 				</ul>
 			</div>
 			<div class="col-md-6">
@@ -93,15 +96,15 @@ I am learn quickly and always take my business seriously, have a high logical th
 	<div class="col-md-9">
 		<ul>
 			<li>
-				<h4>Bioinformatics Algorithms (Part I) - Grade Achieved: 84.1% with Distinction</h4>
+				<h4>Bioinformatics Algorithms (Part I) - <i>Grade Achieved: 84.1% with Distinction</i></h4>
 				<p><b><a href="https://www.coursera.org/course/bioinformatics">Coursera</a>, University of California, San Diego</b></p>
 			</li>
 			<li>
-				<h4>Practical Machine Learning - Grade Achieved: 90.7% with Distinction</h4>
+				<h4>Practical Machine Learning - <i>Grade Achieved: 90.7% with Distinction</i></h4>
 				<p><b><a href="https://www.coursera.org/course/predmachlearn">Coursera</a>, Johns Hopkins University</b></p>
 			</li>
 			<li>
-				<h4>Preparation for Introductory Biology: DNA to Organisms - Grade Achieved: 84.1% with Distinction</h4>
+				<h4>Preparation for Introductory Biology: DNA to Organisms - <i>Grade Achieved: 84.1% with Distinction</i></h4>
 				<p><b><a href="https://www.coursera.org/course/introbiology">Coursera</a>, University of California, Irvine</b></p>
 			</li>
 		</ul>
