@@ -5301,7 +5301,7 @@ details summary {
 
 details[open] summary {
     background: #AC193D;
-    color: #FFF;
+    color: #333;
 }
 
 /* Hide the default marker. */    
