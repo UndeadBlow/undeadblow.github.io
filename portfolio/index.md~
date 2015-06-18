@@ -67,7 +67,7 @@ Project performed on Qt, but uses very low-level Windows tools, so it is not cro
 My own project that I sometimes developing in my spare time. This is the Google Chrome extension for translation english words and sentences on russian.
 I have never worked before with Javascript, HTML and CSS, but learned a few things in the process.
 For translation this extension uses three servises (at now) with open API: <a href="https://translate.yandex.ru/">Yandex.Translate</a>, <a href="https://mymemory.translated.net/">MyMemory</a> and <a href="http://www.frengly.com/">Frengly</a>.
-In the future, I'm planning to modify this exstension to save words to <a href="http://ankisrs.net/">Anki</a> format files to use it with this awesome programm.
+In the future, I plan to modify this exstension to save words to <a href="http://ankisrs.net/">Anki</a> format files to use it with this awesome programm.
 <details>
 <summary>Screenshots</summary>
 <img src="/images/open-tr (4).png" class="img-boarded"></img>
