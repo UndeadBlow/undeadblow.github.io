@@ -314,7 +314,7 @@ img {
 }
 .img-boarded {
 	margin: 10px;
-	border: 3px dashed black; 
+	border: 2px dashed black; 
 }
 .img-thumbnail {
   padding: 4px;
@@ -5301,7 +5301,7 @@ details summary {
 
 details[open] summary {
     background: #AC193D;
-    color: #333;
+    color: #FFF;
 }
 
 /* Hide the default marker. */    

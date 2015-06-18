@@ -314,7 +314,7 @@ img {
 }
 .img-boarded {
 	margin: 10px;
-	border: 3px dashed black; 
+	border: 2px dashed #5b2d8d; 
 }
 .img-thumbnail {
   padding: 4px;
