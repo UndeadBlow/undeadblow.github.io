@@ -51,6 +51,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 					<li class="list-group-item">NSIS</li>
 					<li class="list-group-item">Network (UDO, TCP\IP, XML, JSON, API and other experience)</li>
 					<li class="list-group-item">Multithreading (QThread, QtConcurrent, OpenMP)</li>
+					<li class="list-group-item">Machine Learning and Data Science</li>
 				</ul>
 			</div>
 			<div class="col-md-6">
