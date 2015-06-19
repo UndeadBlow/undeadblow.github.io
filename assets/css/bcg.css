@@ -1,14 +1,10 @@
 body {
-background-color: #fff;
-background-size: 100% 1.2em;
-background-image: -webkit-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                  -webkit-linear-gradient(#eee .05em, transparent .05em);
-background-image: -moz-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                  -moz-linear-gradient(#eee .05em, transparent .05em);
-background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                  linear-gradient(#eee .05em, transparent .05em);
--pie-background: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px) 0 0 / 100% 1.2em,
-                 linear-gradient(#eee .05em, transparent .05em) 0 0 / 100% 1.2em #fff;
+background-size: 50px 50px;
+background-color: #0ae;
+background-image: -webkit-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+-pie-background: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px #0ae;
 }
 
 .bord {
