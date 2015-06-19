@@ -7,8 +7,8 @@ radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#282828;
 background-size:16px 16px;*/
-background: #fefcea; /* Для старых браузров */
     background: linear-gradient(to top left, #A7D3FA, #2A91EB);
+    padding: 10px;
     border: 1px solid #333;
 }
 
