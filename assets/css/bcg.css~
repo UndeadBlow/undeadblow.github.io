@@ -4,8 +4,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color:#fff;
-    background-color:#333;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/homeBg.jpg',     sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/homeBg', sizingMethod='scale');
 }
 
 .bord {
