@@ -177,6 +177,18 @@ background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparen
 	background-repeat: no-repeat;
 }
 
+.flickr-ico-sm {
+	background-image: url('/assets/images/flickr-ico-sm.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.flickr-ico {
+	background-image: url('/assets/images/flickr-ico-big.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .rs-ico-sm {
 	background-image: url('/assets/images/rs_ico_sm.png');
 	background-position: center;
