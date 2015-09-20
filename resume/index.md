@@ -98,12 +98,20 @@ I am learn quickly and always take my business seriously, have a high logical th
 	<div class="col-md-9">
 		<ul>
 			<li>
-				<h4>Bioinformatics Algorithms (Part I) - <i>Grade Achieved: 84.1% with Distinction</i></h4>
-				<p><b><a href="https://www.coursera.org/course/bioinformatics">Coursera</a>, University of California, San Diego</b></p>
+				<h4>Machine Learning - <i>Grade Achieved: 96.9%</i></h4>
+				<p><b><a href="https://www.coursera.org/learn/machine-learning">Coursera</a>, Stanford University</b></p>
 			</li>
 			<li>
-				<h4>Practical Machine Learning - <i>Grade Achieved: 90.7% with Distinction</i></h4>
+				<h4>Practical Machine Learning - <i>Grade Achieved: 90.7%</i></h4>
 				<p><b><a href="https://www.coursera.org/course/predmachlearn">Coursera</a>, Johns Hopkins University</b></p>
+			<li>
+			<li>
+				<h4>UML - Professional course</h4>
+				<p><b><a href="http://www.it-podgotovka.ru/">IT-training</a></b></p>
+			</li>
+			<li>
+				<h4>Bioinformatics Algorithms (Part I) - <i>Grade Achieved: 84.1% with Distinction</i></h4>
+				<p><b><a href="https://www.coursera.org/course/bioinformatics">Coursera</a>, University of California, San Diego</b></p>
 			</li>
 			<li>
 				<h4>Preparation for Introductory Biology: DNA to Organisms - <i>Grade Achieved: 84.1% with Distinction</i></h4>
@@ -128,7 +136,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 			<li>
 				<h4><a href="http://www.npk-pelengator.ru/">NPK-Pelengator</a></h4>
 				<h5>April 2015 - Present</h5>
-				<p>Software engineer (C++, Qt 4/5, STL), reponsible of GUI design, developing models and software.</p>
+				<p>Software engineer (C++, Qt 4/5, STL). Main responsibility: GUI design, math models, data science, deployment.</p>
 			</li>
 		</ul>
 	</div>
