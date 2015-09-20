@@ -104,7 +104,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 			<li>
 				<h4>Practical Machine Learning - <i>Grade Achieved: 90.7%</i></h4>
 				<p><b><a href="https://www.coursera.org/course/predmachlearn">Coursera</a>, Johns Hopkins University</b></p>
-			<li>
+			</li>
 			<li>
 				<h4>UML - Professional course</h4>
 				<p><b><a href="http://www.it-podgotovka.ru/">IT-training</a></b></p>
