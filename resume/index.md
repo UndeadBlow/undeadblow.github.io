@@ -93,7 +93,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 <hr/>
 <!-- Courses -->
 <section class="row">
-	<header class="col-md-3">
+	<header class="col-md-2">
 		<h3 style="text-transform:uppercase;color:gray">Courses<br>and certificates</h3>
 	</header>
 	<div class="col-md-9">
