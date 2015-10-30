@@ -14,7 +14,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 
 <!-- Skills -->
 <section class="row">
-	<header class="col-md-3">
+	<header class="col-md-2">
 		<h3 style="text-transform:uppercase;color:gray">Skills<br>and knowledges</h3>
 	</header>
 	<div class="col-md-9">
@@ -51,7 +51,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 					<li class="list-group-item">NSIS</li>
 					<li class="list-group-item">Network (UDO, TCP\IP, XML, JSON, API and other experience)</li>
 					<li class="list-group-item">Multithreading (QThread, QtConcurrent, OpenMP)</li>
-					<li class="list-group-item">Machine Learning and Data Science</li>
+					<li class="list-group-item">Machine Learning and Data Science: Linear\Logistic Regression, SVM, Neural Networks, Deep Learning, etc.</li>
 				</ul>
 			</div>
 			<div class="col-md-6">
