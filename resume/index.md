@@ -12,6 +12,7 @@ Also have experience with distant work on companies (see work experience section
 
 I am learn quickly and always take my business seriously, have a high logical thinking skills and love to create and explore.
 
+
 <!-- Skills -->
 <section class="row">
 	<header class="col-md-2">
@@ -73,7 +74,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 <hr/>
 <!-- Education -->
 <section class="row">
-	<header class="col-md-3">
+	<header class="col-md-2">
 		<h3 style="text-transform:uppercase;color:gray">Education</h3>
 	</header>
 	<div class="col-md-9">
@@ -123,7 +124,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 <hr/>
 <!-- Work -->
 <section class="row">
-	<header class="col-md-3">
+	<header class="col-md-2">
 		<h3 style="text-transform:uppercase;color:gray">Work Experience</h3>
 	</header>
 	<div class="col-md-9">
