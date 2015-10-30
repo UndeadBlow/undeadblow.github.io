@@ -27,11 +27,18 @@ and, you know, that's amazing science.
 More, I love photo. Currently, I am newbie and my experience is low, but only currently :) You can check my last results in that subject on [Flick](https://www.flickr.com/photos/131639781@N06/).
 What else? Music is good enough to spend much time too. I love rock, metal, alternative but my tastes not tied to something one too strong also :) Movies and TV series? Of course! I have seen, I think, about all popular TV series and most of good films for the last decade.
 Hmm... And I love bicycle! Amazing thing but it's hard to use it all year round in my city climate.
+<<<<<<< HEAD
 
 And yes, I love to learn. That's, maybe, my meaning of life.
 Programming, Software Development, Data Science, Machine Learning, Artificial Intelligence, Cybernetics, Electronics, Computer Science and Algorithms, Biology, Medicine, Genetics, Bioinformatics, Chemistry, Zoology, Physics... how much I wish to know perfectly and how short our life is!
 Thanks to MOOCs we can do something with that sad fact.
 
+=======
+And yes, I love to learn. That's, maybe, my meaning of life.
+Programming, Software Development, Data Science, Machine Learning, Artificial Intelligence, Cybernetics, Electronics, Computer Science and Algorithms, Biology, Medicine, Genetics, Bioinformatics, Chemistry, Zoology, Physics... how much I wish to know perfectly and how short our life is!
+Thanks to MOOCs we can do something with that sad fact.
+
+>>>>>>> ecb9e90e6d51537c9b61f90cf078a292f1f9542e
 P.S. Details about my skills you can find at [LinkedIn](https://www.linkedin.com/pub/maksim-kuprashevich/80/a96/183) or at Resume section on this resource (menu bar at left of screen).
 
 Also here you can enjoy my portfolio and my profiles in many social networks. Good luck!
