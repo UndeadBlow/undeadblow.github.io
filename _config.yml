@@ -10,7 +10,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Kuprashevich Maksim'
 tagline:          'Portfolio'
 description:      'Portfolio'
-url:              'http://undeadblow.github.io/' 
+url:              'http://undeadblow.github.io/'
 #http://undeadblow.github.io/
 baseurl:          ''
 
@@ -33,21 +33,22 @@ stackoverflow:  'http://stackoverflow.com/users/1781448/undeaddragon'
 github:			'https://github.com/UndeadBlow'
 coursera:		'https://www.coursera.org/user/i/3d260af9023ceff05012c1fef7f8b085'
 flickr:		'https://www.flickr.com/photos/131639781@N06/'
+upwork:		'https://www.upwork.com/freelancers/~0139a187ce476c2d01'
 
 # Google Analytics
 #gahandler: 'UA-52149651-1'
 
-#if footer-links-visible is 'true' the svg-icons will be shown top on the copy right. 
+#if footer-links-visible is 'true' the svg-icons will be shown top on the copy right.
 #else the svg icons will not exist
 footersvg: 'true'
 
 footer-links:
-  dribbble: 
+  dribbble:
   email: 'undeadblow@gmail.com'
   facebook: undeadblow
-  flickr: 
-  github: UndeadBlow
-  instagram: 
+  flickr:
+  #github: UndeadBlow
+  instagram:
   #linkedin: maksim-kuprashevich/80/a96/183
   pinterest:
   #rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
@@ -65,3 +66,4 @@ destination: ./_site
 
 # Custom vars
 version:          0.7.10
+gems: [jekyll-paginate]

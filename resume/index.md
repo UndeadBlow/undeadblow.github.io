@@ -4,14 +4,13 @@ title: Resume
 description: Resume of Kuprashevich Maksim
 theme: blue
 ---
-I am software developer with experience of research and freelance projects. 
+I am software developer with experience of research and freelance projects.   
 
-I am active on such freelance resourses like <a hfref="https://freelance.ru/">freelance.ru</a>, <a hfref="http://www.weblancer.net/">www.weblancer.net</a>, <a hfref="https://www.odesk.com/">www.odesk.com</a> and etc.
+I am active on such freelance resourses like <a hfref="https://www.upwork.com/freelancers/~0139a187ce476c2d01">Upwork (I'm Toprated)</a> or <a hfref="https://freelance.ru/">freelance.ru</a>.
 
 Also have experience with distant work on companies (see work experience section below).
 
 I am learn quickly and always take my business seriously, have a high logical thinking skills and love to create and explore.
-
 
 <!-- Skills -->
 <section class="row">
@@ -24,15 +23,14 @@ I am learn quickly and always take my business seriously, have a high logical th
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Programming skills</strong></h4></li>
 					<li class="list-group-item">C++ since 2011 (03, 11 and 14 standarts)</li>
-					<li class="list-group-item">Qt since 2011</li>
 					<li class="list-group-item">Python since 2013</li>
-					<li class="list-group-item">STL, Boost</li>
+					<li class="list-group-item">Lua since 2015</li>
 					<li class="list-group-item active"><h4><strong>Also have some experience:</strong></h4></li>
 					<li class="list-group-item">C</li>
+					<li class="list-group-item">Javascript</li>
 					<li class="list-group-item">C#</li>
 					<li class="list-group-item">Java</li>
 					<li class="list-group-item">HTML</li>
-					<li class="list-group-item">Javascript</li>
 					<li class="list-group-item">CSS</li>
 					<li class="list-group-item">SQL</li>
 					<li class="list-group-item">R</li>
@@ -43,23 +41,25 @@ I am learn quickly and always take my business seriously, have a high logical th
 			<div class="col-md-6">
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Technologies skills</strong></h4></li>
-					<li class="list-group-item">Git, SVN</li>
-					<li class="list-group-item">WinAPI, COM</li>
-					<li class="list-group-item">DLL & LIB</li>
-					<li class="list-group-item">nmake, cmake, qmake, make</li>
-					<li class="list-group-item">Qt Creator, Visual Studio, WebStorm, PyCharm, Eclipse, R Studio, etc</li>
-					<li class="list-group-item">CppCheck, PVS-Studio, Valgrind</li>
-					<li class="list-group-item">NSIS</li>
-					<li class="list-group-item">Network (UDO, TCP\IP, XML, JSON, API and other experience)</li>
-					<li class="list-group-item">Multithreading (QThread, QtConcurrent, OpenMP)</li>
-					<li class="list-group-item">Machine Learning and Data Science: Linear\Logistic Regression, SVM, Neural Networks, Deep Learning, etc.</li>
+					<li class="list-group-item"><i>C++ Frameworks: </i>Qt (since 2011, I love it), STL, Boost</li>
+					<li class="list-group-item"><i>Machine Learning methods: </i>Deep Neural networks, MLP, SVM, Random Forests, Nearest neighbor, Linear and Logistic regression, etc.</li>
+					<li class="list-group-item"><i>Machine Learning frameworks: </i>Torch, Caffe, OpenCV, Theano, Keras, a little TensorFlow.</li>
+					<li class="list-group-item"><i>Versions control: </i>Git, SVN</li>
+					<li class="list-group-item"><i>Windows technologies: </i>WinAPI, COM</li>
+					<li class="list-group-item"><i>Build automation tools</i>cmake, make, qmake, nmake, a little gradle</li>
+					<li class="list-group-item"><i>IDE: </i>Qt Creator, Visual Studio, WebStorm, PyCharm, Eclipse, R Studio, Android Studio, Sublime, etc</li>
+					<li class="list-group-item"><i>Static and dynamic analyzers: </i>CppCheck, PVS-Studio, Valgrind</li>
+					<li class="list-group-item"><i>Installers: </i>NSIS, bash :)</li>
+					<li class="list-group-item"><i>Network technologies: </i> (UDO, TCP\IP, XML, JSON, API and other experience)</li>
+					<li class="list-group-item"><i>Multithreading: </i>QThread, QtConcurrent, OpenMP, C++ 11</li>
+					<li class="list-group-item"><i>Other technologies: </i>dll, lib</li>
 				</ul>
 			</div>
 			<div class="col-md-6">
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Other skills and knowledges</strong></h4></li>
-					<li class="list-group-item">Software Development</li>
 					<li class="list-group-item">Algorithms</li>
+					<li class="list-group-item">Image Processing</li>
 					<li class="list-group-item">Probability theory and statistics</li>
 					<li class="list-group-item">Discrete mathematics</li>
 					<li class="list-group-item">Molecular Biology</li>
@@ -107,6 +107,10 @@ I am learn quickly and always take my business seriously, have a high logical th
 				<p><b><a href="https://www.coursera.org/course/predmachlearn">Coursera</a>, Johns Hopkins University</b></p>
 			</li>
 			<li>
+			<li>
+				<h4>Image and video processing: From Mars to Hollywood with a stop at the hospital - <i>Grade Achieved: 100% with Distinction</i></h4>
+				<p><b><a href="https://www.coursera.org/course/introbiology">Coursera</a>, Duke University</b></p>
+			</li>
 				<h4>UML - Professional course</h4>
 				<p><b><a href="http://www.it-podgotovka.ru/">IT-training</a></b></p>
 			</li>
@@ -131,13 +135,18 @@ I am learn quickly and always take my business seriously, have a high logical th
 		<ul>
 			<li>
 				<h4>Freelancer</h4>
-				<h5>September 2014 - Present</h5>
+				<h5>September 2014 - 2015</h5>
 				<p>Working as freelancer on <a href="http://www.biocad.ru/en/">Biocad company</a> and on freelance portals, for example <a href="https://freelance.ru/reviews/UndeadBlow/">freelance.ru</a></p>
 			</li>
 			<li>
 				<h4><a href="http://www.npk-pelengator.ru/">NPK-Pelengator</a></h4>
-				<h5>April 2015 - Present</h5>
-				<p>Software engineer (C++, Qt 4/5, STL). Main responsibility: GUI design, math models, data science, deployment.</p>
+				<h5>April 2015 - November 2015</h5>
+				<p>Software engineer (C++, Qt 4/5, STL). Main responsibility: GUI design, Math Models, Data Science, deployment.</p>
+			</li>
+			<li>
+				<h4><a href="http://navmii.com/">Navmii</a></h4>
+				<h5>November 2015 - Present</h5>
+				<p>Machine Learning expert: Advanced Driver Assisting Systems, Computer Vision, Image processing, Shallow and Deep Learning methods.</p>
 			</li>
 		</ul>
 	</div>

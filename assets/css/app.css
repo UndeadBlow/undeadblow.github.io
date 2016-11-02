@@ -1,6 +1,6 @@
 /*、Scroll-up-button*/
 .scrollToTop{
-    width:48px; 
+    width:48px;
     height:48px;
     text-decoration: none;
     position:fixed;
@@ -90,7 +90,7 @@
 }
 
 .vk_blue {
-	background: #56789c;
+	background: #56789C;
 }
 
 .grey {
@@ -99,6 +99,10 @@
 
 .skype_blue {
 	background: #12A5F4;
+}
+
+.upwork_green {
+	background: #22E742;
 }
 
 .left-nav {
