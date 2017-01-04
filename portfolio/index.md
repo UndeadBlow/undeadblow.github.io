@@ -13,16 +13,6 @@ There are three main sections here:
 <li>My own projects and training projects. Usually such projects is unfinished and very rough.</li>
 </ul>
 
-<details class="category">
-<summary>some title</summary>
-some text
-</details>
-<br>
-<details class="screenshot">
-<summary>some title 2</summary>
-some text 2
-</details>
-
 <br>
 <hr>
 <!-- SattvaMailer -->
