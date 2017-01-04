@@ -4,15 +4,13 @@ title: Resume
 description: Resume of Kuprashevich Maksim
 theme: blue
 ---
-I am software developer with experience of research and freelance projects.   
+For now, I am Machine Learning expert, also I'm software developer with production and freelance experience.   
 
-I am active on such freelance resourses like <a hfref="https://www.upwork.com/freelancers/~0139a187ce476c2d01">Upwork (I'm Toprated)</a> or <a hfref="https://freelance.ru/">freelance.ru</a>.
-
-Also have experience with distant work on companies (see work experience section below).
+I am active on such freelance recourses like <a hfref="https://www.upwork.com/freelancers/~0139a187ce476c2d01">Upwork (I'm Toprated)</a> or <a hfref="https://freelance.ru/">freelance.ru</a>.
 
 I am learn quickly and always take my business seriously, have a high logical thinking skills and love to create and explore.
 
-<!-- Skills -->
+<br>
 <section class="row">
 	<header class="col-md-2">
 		<h3 style="text-transform:uppercase;color:gray">Skills<br>and knowledges</h3>
@@ -22,7 +20,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 			<div class="col-md-6">
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Programming skills</strong></h4></li>
-					<li class="list-group-item">C++ since 2011 (03, 11 and 14 standarts)</li>
+					<li class="list-group-item">C++ since 2011 (03, 11, 14)</li>
 					<li class="list-group-item">Python since 2013</li>
 					<li class="list-group-item">Lua since 2015</li>
 					<li class="list-group-item active"><h4><strong>Also have some experience:</strong></h4></li>
@@ -33,7 +31,6 @@ I am learn quickly and always take my business seriously, have a high logical th
 					<li class="list-group-item">HTML</li>
 					<li class="list-group-item">CSS</li>
 					<li class="list-group-item">SQL</li>
-					<li class="list-group-item">R</li>
 					<li class="list-group-item">QML</li>
 					<li class="list-group-item">Visual Basic</li>
 				</ul>
@@ -45,14 +42,13 @@ I am learn quickly and always take my business seriously, have a high logical th
 					<li class="list-group-item"><i>Machine Learning methods: </i>Deep Neural networks, MLP, SVM, Random Forests, Nearest neighbor, Linear and Logistic regression, etc.</li>
 					<li class="list-group-item"><i>Machine Learning frameworks: </i>Torch, Caffe, OpenCV, Theano, Keras, a little TensorFlow.</li>
 					<li class="list-group-item"><i>Versions control: </i>Git, SVN</li>
-					<li class="list-group-item"><i>Windows technologies: </i>WinAPI, COM</li>
-					<li class="list-group-item"><i>Build automation tools</i>cmake, make, qmake, nmake, a little gradle</li>
-					<li class="list-group-item"><i>IDE: </i>Qt Creator, Visual Studio, WebStorm, PyCharm, Eclipse, R Studio, Android Studio, Sublime, etc</li>
+					<li class="list-group-item"><i>Build automation tools: </i>cmake, make, qmake, nmake, a little gradle</li>
+					<li class="list-group-item"><i>IDE: </i>Qt Creator, Visual Studio (any version ofc), WebStorm, PyCharm, Android Studio, Eclipse, R Studio, etc</li>
 					<li class="list-group-item"><i>Static and dynamic analyzers: </i>CppCheck, PVS-Studio, Valgrind</li>
 					<li class="list-group-item"><i>Installers: </i>NSIS, bash :)</li>
-					<li class="list-group-item"><i>Network technologies: </i> (UDO, TCP\IP, XML, JSON, API and other experience)</li>
-					<li class="list-group-item"><i>Multithreading: </i>QThread, QtConcurrent, OpenMP, C++ 11</li>
-					<li class="list-group-item"><i>Other technologies: </i>dll, lib</li>
+					<li class="list-group-item"><i>Network technologies: </i> (UDP, TCP\IP, XML, JSON, REST API, etc)</li>
+					<li class="list-group-item"><i>Multithreading: </i>Qt Multithreading, OpenMP, C++ 11</li>
+					<li class="list-group-item"><i>Other technologies: </i>dll, lib, WinAPI, COM</li>
 				</ul>
 			</div>
 			<div class="col-md-6">
@@ -106,7 +102,6 @@ I am learn quickly and always take my business seriously, have a high logical th
 				<h4>Practical Machine Learning - <i>Grade Achieved: 90.7%</i></h4>
 				<p><b><a href="https://www.coursera.org/course/predmachlearn">Coursera</a>, Johns Hopkins University</b></p>
 			</li>
-			<li>
 			<li>
 				<h4>Image and video processing: From Mars to Hollywood with a stop at the hospital - <i>Grade Achieved: 100% with Distinction</i></h4>
 				<p><b><a href="https://www.coursera.org/course/introbiology">Coursera</a>, Duke University</b></p>

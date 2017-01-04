@@ -5,7 +5,23 @@ description: Portfolio of Kuprashevich Maksim
 theme: red
 ---
 
-This is my portfolio with examples of projects that I performed.
+Here you can find some examples of my projects.
+There are three main sections here:
+<ul>
+<li>Work projects, which were made during regular work</li>
+<li>Freelance projects, which were made during my free time as additional income</li>
+<li>My own projects and training projects. Usually such projects is unfinished and very rough.</li>
+</ul>
+
+<details class="category">
+<summary>some title</summary>
+some text
+</details>
+<br>
+<details class="screenshot">
+<summary>some title 2</summary>
+some text 2
+</details>
 
 <br>
 <hr>
@@ -19,16 +35,16 @@ This is my portfolio with examples of projects that I performed.
 <span class="label btn-red">Network</span>
 <span class="label btn-red">Webkit</span>
 
-Freelance project, messenger for <a href="https:\\vk.com">Vkontakte</a> (Russian social facebook-like network). Have huge functionality, 
-works with Vkontakte API and WebKit browser from Qt. Many challenges were solved through interaction with the javascript code. Allows to work with 
+Freelance project, messenger for <a href="https:\\vk.com">Vkontakte</a> (Russian social facebook-like network). Have huge functionality,
+works with Vkontakte API and WebKit browser from Qt. Many challenges were solved through interaction with the javascript code. Allows to work with
 proxy and have flexible options. Supports many functions from site: add to friends, add friend to list, save all friends in file and many others.
 
-<details>
+<details class="screenshot">
 <summary>Screenshots</summary>
-<img src="/images/stm (1).png" class="img-boarded"></img>
-<img src="/images/stm (2).png" class="img-boarded"></img>
-<img src="/images/stm (3).png" class="img-boarded"></img>
-<img src="/images/stm (4).png" class="img-boarded"></img>
+<img src="/images/stm (1).png" class="img-boarded">
+<img src="/images/stm (2).png" class="img-boarded">
+<img src="/images/stm (3).png" class="img-boarded">
+<img src="/images/stm (4).png" class="img-boarded">
 </details>
 
 <br>
@@ -43,17 +59,17 @@ proxy and have flexible options. Supports many functions from site: add to frien
 <span class="label btn-red">SQL</span>
 <span class="label btn-red">DLL</span>
 
-Project for Biocad company. For security purposes this is without details.
-This software package allows Biocad-card users to safe run and authorize in various programs, list of which can be extended by admin with 
-plugins, using Dynamic Link Libraries. Also it allows to login in Windows with user card. 
+Project for Biocad company. For security purposes this is without details class="screenshot".
+This software package allows Biocad-card users to safe run and authorize in various programs, list of which can be extended by admin with
+plugins, using Dynamic Link Libraries. Also it allows to login in Windows with user card.
 Project performed on Qt, but uses very low-level Windows tools, so it is not cross-platform.
 
-<details>
+<details class="screenshot">
 <summary>Screenshots</summary>
-<img src="/images/proxauth (1).png" class="img-boarded"></img>
-<img src="/images/proxauth (2).png" class="img-boarded"></img>
-<img src="/images/proxauth (3).png" class="img-boarded"></img>
-<img src="/images/proxauth (4).png" class="img-boarded"></img>
+<img src="/images/proxauth (1).png" class="img-boarded">
+<img src="/images/proxauth (2).png" class="img-boarded">
+<img src="/images/proxauth (3).png" class="img-boarded">
+<img src="/images/proxauth (4).png" class="img-boarded">
 </details>
 
 <br>
@@ -68,12 +84,12 @@ My own project that I sometimes developing in my spare time. This is the Google 
 I have never worked before with Javascript, HTML and CSS, but learned a few things in the process.
 For translation this extension uses three servises (at now) with open API: <a href="https://translate.yandex.ru/">Yandex.Translate</a>, <a href="https://mymemory.translated.net/">MyMemory</a> and <a href="http://www.frengly.com/">Frengly</a>.
 In the future, I'm planning to modify this exstension to save words to <a href="http://ankisrs.net/">Anki</a> format files to use it with this awesome programm.
-<details>
+<details class="screenshot">
 <summary>Screenshots</summary>
-<img src="/images/open-tr (4).png" class="img-boarded"></img>
-<img src="/images/open-tr (2).png" class="img-boarded"></img>
-<img src="/images/open-tr (3).png" class="img-boarded"></img>
-<img src="/images/open-tr (1).png" class="img-boarded"></img>
+<img src="/images/open-tr (4).png" class="img-boarded">
+<img src="/images/open-tr (2).png" class="img-boarded">
+<img src="/images/open-tr (3).png" class="img-boarded">
+<img src="/images/open-tr (1).png" class="img-boarded">
 </details>
 
 <br>
@@ -84,18 +100,18 @@ In the future, I'm planning to modify this exstension to save words to <a href="
 <span class="label btn-red">Qt</span>
 <span class="label btn-red">Math</span>
 
-My training project within the discipline "Mathematic modeling". 
-This program allows to create and edit cities in which can be modeled (through the solution of differential equations) an epidemic of different diseases with different parameters. 
+My training project within the discipline "Mathematic modeling".
+This program allows to create and edit cities in which can be modeled (through the solution of differential equations) an epidemic of different diseases with different parameters.
 Also it allows to output different plots.
-<details>
+<details class="screenshot">
 <summary>Screenshots</summary>
-<img src="/images/pand (1).png" class="img-boarded"></img>
-<img src="/images/pand (2).png" class="img-boarded"></img>
-<img src="/images/pand (3).png" class="img-boarded"></img>
-<img src="/images/pand (4).png" class="img-boarded"></img>
-<img src="/images/pand (5).png" class="img-boarded"></img>
-<img src="/images/pand (6).png" class="img-boarded"></img>
-<img src="/images/pand (7).png" class="img-boarded"></img>
+<img src="/images/pand (1).png" class="img-boarded">
+<img src="/images/pand (2).png" class="img-boarded">
+<img src="/images/pand (3).png" class="img-boarded">
+<img src="/images/pand (4).png" class="img-boarded">
+<img src="/images/pand (5).png" class="img-boarded">
+<img src="/images/pand (6).png" class="img-boarded">
+<img src="/images/pand (7).png" class="img-boarded">
 </details>
 
 <br>
@@ -108,13 +124,13 @@ Also it allows to output different plots.
 <span class="label btn-red">Network</span>
 
 My own project, that I wrote for myself. That program designed for parsing russian online shop "Ulmart" and monitoring prices for goods.
-When amount of good or price changes - program notifies user about event in various ways (sound, colored row in table and tray message). 
+When amount of good or price changes - program notifies user about event in various ways (sound, colored row in table and tray message).
 Program have different options, such as color setting, delay setting, sound enable\disable, etc.
 
-<details>
+<details class="screenshot">
 <summary>Screenshots</summary>
-<img src="/images/ulmart (1).png" class="img-boarded"></img>
-<img src="/images/ulmart (2).png" class="img-boarded"></img>
-<img src="/images/ulmart (3).png" class="img-boarded"></img>
-<img src="/images/ulmart (4).png" class="img-boarded"></img>
+<img src="/images/ulmart (1).png" class="img-boarded">
+<img src="/images/ulmart (2).png" class="img-boarded">
+<img src="/images/ulmart (3).png" class="img-boarded">
+<img src="/images/ulmart (4).png" class="img-boarded">
 </details>

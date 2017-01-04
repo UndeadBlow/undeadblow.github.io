@@ -314,7 +314,7 @@ img {
 }
 .img-boarded {
 	margin: 10px;
-	border: 2px dashed #5b2d8d; 
+	border: 2px dashed #5b2d8d;
 }
 .img-thumbnail {
   padding: 4px;
@@ -5284,11 +5284,13 @@ table .info a,
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+
 details {
     border-radius: 3px;
     background: #EEE;
 }
 
+/* when spoiled is closed */
 details summary {
     font-size: 17px;
     vertical-align: top;
@@ -5299,24 +5301,39 @@ details summary {
     outline: none;
 }
 
-details[open] summary {
+/* When spoiler is opened */
+details[class="screenshot"].[open] summary {
     background: #AC193D;
     color: #FFF;
 }
+details[class="category"].[open] summary {
+    background: #333;
+    color: #FFF;
+}
 
-/* Hide the default marker. */    
+/* Hide the default marker. */
 details summary::-webkit-details-marker {
     display: none;
 }
 
-/* Add the custom marker in the default state. */    
-details summary:before {
+/* Add the custom marker in the default state. */
+details[class="screenshot"] summary:before {
     display: inline-block;
     width: 20px;
     height: 20px;
     margin-right: 8px;
     content: "";
     background-image: url(/images/spoiler.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+details[class="category"] summary:before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    content: "";
     background-repeat: no-repeat;
     background-position: 0 0;
 }
