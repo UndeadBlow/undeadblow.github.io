@@ -10,7 +10,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Kuprashevich Maksim'
 tagline:          'Portfolio'
 description:      'Portfolio'
-url:              'http://undeadblow.github.io/'
+url:              'http://localhost:4000/'
 #http://undeadblow.github.io/
 baseurl:          ''
 

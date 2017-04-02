@@ -337,6 +337,15 @@ hr {
   border: 0;
   border-top: 1px solid #e6e6e6;
 }
+hr.little {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 0;
+  border-top: 1px solid #e6e6e6;
+}
+br.little {
+  line-height: 10%;
+}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -5290,10 +5299,43 @@ details {
     background: #EEE;
 }
 
+details[class="screenshot-inside-details"] {
+    padding: 10px 0px 10px 15px;
+}
+
 /* when spoiled is closed */
-details summary {
+details[class="screenshot"] summary {
     font-size: 17px;
     vertical-align: top;
+    background: #333;
+    color: #FFF;
+    border-radius: 3px;
+    outline: none;
+}
+
+details[class="video"] summary {
+    font-size: 17px;
+    vertical-align: top;
+    background: #333;
+    color: #FFF;
+    border-radius: 3px;
+    outline: none;
+}
+
+details[class="screenshot-inside-details"] summary {
+    font-size: 17px;
+    vertical-align: top;
+    background: #333;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 0px 0px 0px 0px;
+    outline: none;
+}
+
+details[class="category"] summary {
+    font-size: 17px;
+    vertical-align: top;
+    horizontal-align: left;
     background: #333;
     color: #FFF;
     border-radius: 3px;
@@ -5301,12 +5343,30 @@ details summary {
     outline: none;
 }
 
+#backsum {
+   position: absolute;
+   top: 6;
+   left: 6;
+   bottom: 0;
+   right: 0;
+}
+
 /* When spoiler is opened */
-details[class="screenshot"].[open] summary {
+details[class="screenshot"][open] summary {
     background: #AC193D;
     color: #FFF;
 }
-details[class="category"].[open] summary {
+details[class="video"][open] summary {
+    background: #AC193D;
+    color: #FFF;
+}
+
+details[class="screenshot-inside-details"][open] summary {
+    background: #AC193D;
+    color: #FFF;
+}
+
+details[class="category"][open] summary {
     background: #333;
     color: #FFF;
 }
@@ -5319,25 +5379,133 @@ details summary::-webkit-details-marker {
 /* Add the custom marker in the default state. */
 details[class="screenshot"] summary:before {
     display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    content: "";
+    background-image: url(/images/spoiler.png);
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+}
+
+details[class="video"] summary:before {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    content: "";
+    background-image: url(/images/spoiler_video.png);
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+}
+
+details[class="screenshot-inside-details"] summary:before {
+    display: inline-block;
     width: 20px;
     height: 20px;
     margin-right: 8px;
     content: "";
     background-image: url(/images/spoiler.png);
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 6px 6px;
 }
 
 details[class="category"] summary:before {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
-    content: "";
-    background-repeat: no-repeat;
-    background-position: 0 0;
 }
 
 details summary:hover{
     cursor: pointer;
+}
+
+#aligned-text {
+  all: unset; position: relative; left: 3px; bottom: 3px;
+}
+
+#boarded-like-image {
+  margin: 10px;
+  border: 2px dashed #5b2d8d;
+}
+
+p.details {
+  padding: 10px 0px 10px 15px;
+}
+
+/* Make all links purple instead of blue */
+a:link {
+  color: #5B2D8D;
+}
+a:hover {
+  color: #3f1f62;
+}
+a:active {
+  color: #ad96c6;
+}
+a:visited {
+  color: #7b56a3;
+}
+
+/* Animated hrefs */
+a[class*="seventh"], a[class*="seventh"]:visited, a[class*="seventh"]:hover, a[class*="seventh"]:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration: none;
+  font-weight: bold;
+	color:#000000;
+	/*font-size:2.5em;*/
+}
+a[class*="seventh"]:hover{
+	color:#000000;
+}
+a.before:before,a.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+a.before:before{
+  top:-0.03em;
+}
+a.after:after{
+  bottom:-0.03em;
+}
+a.before:before,a.after:after{
+  height:3px;
+  height:0.25rem;
+  width:0;
+  background:#5B2D8D;
+}
+a.first:after{
+  left:0;
+}
+a.second:after{
+  right:0;
+}
+a.third:after,a.sixth:before,a.sixth:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+a.fourth:before,a.fourth:after{
+  left:0;
+}
+a.fifth:before,a.fifth:after{
+  right:0;
+}
+a.seventh:before{
+  right:0;
+}
+a.seventh:after{
+  left:0;
+}
+a.eigth:before{
+  left:0;
+}
+a.eigth:after{
+  right:0;
+}
+a.before:hover:before,a.after:hover:after{
+  width:100%;
 }

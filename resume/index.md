@@ -6,7 +6,7 @@ theme: blue
 ---
 For now, I am Machine Learning expert, also I'm software developer with production and freelance experience.   
 
-I am active on such freelance recourses like <a hfref="https://www.upwork.com/freelancers/~0139a187ce476c2d01">Upwork (I'm Toprated)</a> or <a hfref="https://freelance.ru/">freelance.ru</a>.
+I am active on such freelance recourses like <a href="https://www.upwork.com/freelancers/~0139a187ce476c2d01" target="_blank" >Upwork</a> or <a href="https://freelance.ru/" target="_blank">freelance.ru</a>.
 
 I am learn quickly and always take my business seriously, have a high logical thinking skills and love to create and explore.
 
@@ -106,7 +106,7 @@ I am learn quickly and always take my business seriously, have a high logical th
 				<h4>Image and video processing: From Mars to Hollywood with a stop at the hospital - <i>Grade Achieved: 100% with Distinction</i></h4>
 				<p><b><a href="https://www.coursera.org/course/introbiology">Coursera</a>, Duke University</b></p>
 			</li>
-				<h4>UML - Professional course</h4>
+			<li><h4>UML - Professional course</h4>
 				<p><b><a href="http://www.it-podgotovka.ru/">IT-training</a></b></p>
 			</li>
 			<li>
@@ -130,16 +130,16 @@ I am learn quickly and always take my business seriously, have a high logical th
 		<ul>
 			<li>
 				<h4>Freelancer</h4>
-				<h5>September 2014 - 2015</h5>
-				<p>Working as freelancer on <a href="http://www.biocad.ru/en/">Biocad company</a> and on freelance portals, for example <a href="https://freelance.ru/reviews/UndeadBlow/">freelance.ru</a></p>
+				<h5>September 2014 - Now</h5>
+				<p>As a hobby, sometimes I carry out projects on portals as Upwork.</p>
 			</li>
 			<li>
-				<h4><a href="http://www.npk-pelengator.ru/">NPK-Pelengator</a></h4>
+				<h4><a href="http://www.npk-pelengator.ru/" target="_blank" >NPK-Pelengator</a></h4>
 				<h5>April 2015 - November 2015</h5>
 				<p>Software engineer (C++, Qt 4/5, STL). Main responsibility: GUI design, Math Models, Data Science, deployment.</p>
 			</li>
 			<li>
-				<h4><a href="http://navmii.com/">Navmii</a></h4>
+				<h4><a href="http://navmii.com/" target="_blank" >Navmii</a></h4>
 				<h5>November 2015 - Present</h5>
 				<p>Machine Learning expert: Advanced Driver Assisting Systems, Computer Vision, Image processing, Shallow and Deep Learning methods.</p>
 			</li>
