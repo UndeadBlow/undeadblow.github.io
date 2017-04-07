@@ -39,9 +39,13 @@ with open('portfolio/index_temp.md', 'r') as file:
     occurs = [m.start() for m in re.finditer('<details', data)]
     print('occurs', occurs)
 
-    for indx in occurs:
-        det_html = data[indx : data.find('>', indx) + 1]
-        print('det_html', det_html)
+    start = 0
+    while True:
+        start = data.find('<details', start + 1)
+        if start < 0:
+            break
+        det_html = data[start : data.find('>', start) + 1]
+        #print('det_html', det_html)
         if 'screenshot' in det_html:
             det_id = det_html[det_html.find('id=\"') + 4 : det_html.rfind('\"')]
             print('id: ', det_id)
@@ -51,8 +55,8 @@ with open('portfolio/index_temp.md', 'r') as file:
                     images = list([img[1:] for img in images])
                     for img in images:
                         det_html += " <img src=\"" + img + "\" class=\"img-boarded\">";
-                        print('det_html', det_html)
-            data = data[: indx] + det_html + data[data.find('>', indx) + 1 : ]
+                        #print('det_html', det_html)
+            data = data[: start] + det_html + data[data.find('>', start) + 1 : ]
 
 with open('./portfolio/index.md', 'w') as f:
     f.write(data)

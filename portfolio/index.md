@@ -179,7 +179,7 @@ Program to live search in Google Documents, to copy rich text of sections that w
 Simple freelance program for downloading videos from Youtube.
 Working through parsing source code of Youtube, no API methods was used.
 
-<details class="screenshot" id="youtube_downloader">
+<details class="screenshot" id="youtube_downloader"> <img src="/images/youtube_downloader/10.png" class="img-boarded"> <img src="/images/youtube_downloader/11.png" class="img-boarded"> <img src="/images/youtube_downloader/13.png" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -203,7 +203,7 @@ That freelance project was created to saving all the dialogs from WeChat to data
 So workflow is very simple, you run it, you login and you push Record button.
 After that everything will happen in WeChat will be recorded.
 
-<details class="screenshot" id="wechat">
+<details class="screenshot" id="wechat"> <img src="/images/wechat/12.png" class="img-boarded"> <img src="/images/wechat/13.png" class="img-boarded"> <img src="/images/wechat/14.png" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -257,7 +257,7 @@ proxy and have flexible options. Supports many functions from site: add to frien
 
 <i>Created for educational purposes, as example how to work with REST API</i>
 
-<details class="screenshot" id="sattva">
+<details class="screenshot" id="sattva"> <img src="/images/sattva/21.png" class="img-boarded"> <img src="/images/sattva/22.png" class="img-boarded"> <img src="/images/sattva/23.png" class="img-boarded"> <img src="/images/sattva/24.png" class="img-boarded"> <img src="/images/sattva/25.png" class="img-boarded"> <img src="/images/sattva/27.png" class="img-boarded"> <img src="/images/sattva/28.png" class="img-boarded"> <img src="/images/sattva/29.png" class="img-boarded"> <img src="/images/sattva/30.png" class="img-boarded"> <img src="/images/sattva/31.png" class="img-boarded"> <img src="/images/sattva/32.png" class="img-boarded"> <img src="/images/sattva/33.png" class="img-boarded"> <img src="/images/sattva/34.png" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -284,7 +284,7 @@ plugins (using Dynamic Link Libraries). Also it allows to login in Windows with 
 Project performed on Qt, but uses very low-level Windows tools, so it is not cross-platform.
 Many changes was solved durig work, because app must be very safe and flexible, and main challenge was to secure card-software interaction, to prevent grabbing information with Low-Level Hooks in Windows.
 
-<details class="screenshot" id="proximity">
+<details class="screenshot" id="proximity"> <img src="/images/proximity/proxauth (1).png" class="img-boarded"> <img src="/images/proximity/proxauth (2).png" class="img-boarded"> <img src="/images/proximity/proxauth (3).png" class="img-boarded"> <img src="/images/proximity/proxauth (4).png" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -305,7 +305,7 @@ I started that project because current translators like LinguaLeo wants money fo
 I have never worked before with Javascript, HTML and CSS before that project, but learned a few things in the process.
 For translation this extension uses three servises (at now) with open API: <a href="https://translate.yandex.ru/">Yandex.Translate</a>, <a href="https://mymemory.translated.net/">MyMemory</a> and <a href="http://www.frengly.com/">Frengly</a>.
 In the future, I'm planning to modify this exstension to save words to <a href="http://ankisrs.net/">Anki</a> format files to use it with this awesome program.
-<details class="screenshot" id="open_translate">
+<details class="screenshot" id="open_translate"> <img src="/images/open_translate/open-tr (1).png" class="img-boarded"> <img src="/images/open_translate/open-tr (2).png" class="img-boarded"> <img src="/images/open_translate/open-tr (3).png" class="img-boarded"> <img src="/images/open_translate/open-tr (4).png" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -325,7 +325,7 @@ In the future, I'm planning to modify this exstension to save words to <a href="
 My training project within the discipline "Mathematic modeling".
 This program allows to create and edit cities in which can be modeled (through the solution of differential equations) an epidemic of different diseases with different parameters.
 Also it allows to output different plots.
-<details class="screenshot" id="pandemic">
+<details class="screenshot" id="pandemic"> <img src="/images/pandemic/pand (1).png" class="img-boarded"> <img src="/images/pandemic/pand (2).png" class="img-boarded"> <img src="/images/pandemic/pand (3).png" class="img-boarded"> <img src="/images/pandemic/pand (4).png" class="img-boarded"> <img src="/images/pandemic/pand (5).png" class="img-boarded"> <img src="/images/pandemic/pand (6).png" class="img-boarded"> <img src="/images/pandemic/pand (7).png" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -346,6 +346,6 @@ My own project, that I wrote for myself. That program designed for parsing russi
 When amount of good or price changes - program notifies user about event in various ways (sound, colored row in table and tray message).
 Program have different options, such as color setting, delay setting, sound enable\disable, etc.
 
-<details class="screenshot" id="ulmart">
+<details class="screenshot" id="ulmart"> <img src="/images/ulmart/ulmart (1).png" class="img-boarded"> <img src="/images/ulmart/ulmart (2).png" class="img-boarded"> <img src="/images/ulmart/ulmart (3).png" class="img-boarded"> <img src="/images/ulmart/ulmart (4).png" class="img-boarded"> <img src="/images/ulmart/ulmart (5).png" class="img-boarded"> <img src="/images/ulmart/ulmart (6).png" class="img-boarded"> <img src="/images/ulmart/ulmart (7).png" class="img-boarded"> <img src="/images/ulmart/ulmart (8).png" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
