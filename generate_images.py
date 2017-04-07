@@ -30,7 +30,7 @@ d = './images'
 images_subdirs = [os.path.join(d,o) for o in os.listdir(d) if os.path.isdir(os.path.join(d,o))]
 
 if os.path.exists('./portfolio/index.md'):
-    shutil.rmtree('./portfolio/index.md')
+    os.remove('./portfolio/index.md')
 
 data = ''
 with open('portfolio/index_temp.md', 'r') as file:
@@ -48,7 +48,7 @@ with open('portfolio/index_temp.md', 'r') as file:
             for subdir in images_subdirs:
                 if det_id in subdir:
                     images = GetAllFilesList(subdir, possible_images)
-                    images = list([img.replace('.', '') for img in images])
+                    images = list([img[1:] for img in images])
                     for img in images:
                         det_html += " <img src=\"" + img + "\" class=\"img-boarded\">";
                         print('det_html', det_html)

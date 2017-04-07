@@ -9,7 +9,7 @@ Here you can find some examples of my projects.
 There are three main sections here:
 
 <script>
-function ready() {
+<!-- function ready() {
   var subdirs = getSubdirs();
 
   for (var i = 0; i < subdirs.length; ++i) {
@@ -81,7 +81,7 @@ function getSubdirs() {
   return subdirs;
 }
 
-  document.addEventListener("DOMContentLoaded", ready);
+  document.addEventListener("DOMContentLoaded", ready); -->
 </script>
 
 <details class="category">
@@ -151,7 +151,7 @@ My own projects and training projects. Usually such projects is unfinished and v
 
 Program to live search in Google Documents, to copy rich text of sections that were found, to view it in web and etc.
 
-<details class="screenshot" id="gdocsearch"> <img src="/images/gdocsearch/ice_screenshot_20170226-194327png" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194353png" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194411png" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194431png" class="img-boarded">
+<details class="screenshot" id="gdocsearch"> <img src="/images/gdocsearch/ice_screenshot_20170226-194327.png" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194353.png" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194411.png" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194431.png" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 <div style="line-height:20%;">
@@ -232,7 +232,7 @@ Working fully with API of listed services, no parsing code, only official method
 
 It's really user-friendly and nice utility, with autofilling forms with information from video, animations, progress bar and etc.
 
-<details class="screenshot" id="video_uploader"> <img src="/images/video_uploader/15png" class="img-boarded"> <img src="/images/video_uploader/16png" class="img-boarded"> <img src="/images/video_uploader/17png" class="img-boarded"> <img src="/images/video_uploader/18png" class="img-boarded"> <img src="/images/video_uploader/19png" class="img-boarded"> <img src="/images/video_uploader/20png" class="img-boarded">
+<details class="screenshot" id="video_uploader"> <img src="/images/video_uploader/15.png" class="img-boarded"> <img src="/images/video_uploader/16.png" class="img-boarded"> <img src="/images/video_uploader/17.png" class="img-boarded"> <img src="/images/video_uploader/18.png" class="img-boarded"> <img src="/images/video_uploader/19.png" class="img-boarded"> <img src="/images/video_uploader/20.png" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
