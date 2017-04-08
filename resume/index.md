@@ -8,8 +8,6 @@ For now, I am Machine Learning expert, also I'm software developer with producti
 
 I am active on such freelance recourses like <a href="https://www.upwork.com/freelancers/~0139a187ce476c2d01" target="_blank" >Upwork</a> or <a href="https://freelance.ru/" target="_blank">freelance.ru</a>.
 
-I am learn quickly and always take my business seriously, have a high logical thinking skills and love to create and explore.
-
 <br>
 <section class="row">
 	<header class="col-md-2">
@@ -19,12 +17,12 @@ I am learn quickly and always take my business seriously, have a high logical th
 		<div class="row">
 			<div class="col-md-6">
 				<ul class="list-group">
-					<li class="list-group-item active"><h4><strong>Programming skills</strong></h4></li>
+					<li class="list-group-item active"><h4><strong>Main languages</strong></h4></li>
 					<li class="list-group-item">C++ since 2011 (03, 11, 14)</li>
 					<li class="list-group-item">Python since 2013</li>
-					<li class="list-group-item">Lua since 2015</li>
 					<li class="list-group-item active"><h4><strong>Also have some experience:</strong></h4></li>
-					<li class="list-group-item">C</li>
+				  <li class="list-group-item">C</li>
+					<li class="list-group-item">Lua</li>
 					<li class="list-group-item">Javascript</li>
 					<li class="list-group-item">C#</li>
 					<li class="list-group-item">Java</li>

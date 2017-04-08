@@ -8,87 +8,15 @@ theme: red
 Here you can find some examples of my projects.
 There are three main sections here:
 
-<script>
-<!-- function ready() {
-  var subdirs = getSubdirs();
-
-  for (var i = 0; i < subdirs.length; ++i) {
-    var images = getImagesList(subdirs[i]);
-    var spoiler_elems = document.getElementsByTagName('details');
-    var spoiler_elem = null;
-    for (var k = 0; k < spoiler_elems.length; ++k) {
-      if (spoiler_elems[k].id == subdirs[i].substr(1)) {
-        spoiler_elem = spoiler_elems[k];
-      }
-    }
-    if (spoiler_elem == null) {
-      return;
-    }
-    for (var j = 0; j < images.length; ++j) {
-      spoiler_elem.innerHTML += "<img src=\"" + "/images" + subdirs[i] + images[j] + "\" class=\"img-boarded\">";
-    }
-  }
-}
-
-function getImagesList(subdir) {
-  var xmlHttp = new XMLHttpRequest();
-  xmlHttp.open( "GET", '/images/' + subdir, false ); // false for synchronous request
-  xmlHttp.send( null );
-  var htmlObject = document.createElement('div')
-  htmlObject.innerHTML = xmlHttp.responseText;
-
-  var allElems = htmlObject.getElementsByClassName("name");
-  var images = []
-  for (var i = 0; i < allElems.length; ++i) {
-    var elem = allElems[i];
-    var href = elem.getElementsByTagName('a')[0].href
-    if (href.indexOf('.png') < 0 && href.indexOf('.jpg') < 0
-    && href.indexOf('.jpeg') < 0) {
-      continue;
-    } else {
-      href = href.substr(href.lastIndexOf('/'));
-      images.push(href);
-    }
-  }
-
-  return images;
-}
-
-function getSubdirs() {
-  var xmlHttp = new XMLHttpRequest();
-  xmlHttp.open( "GET", '/images', false ); // false for synchronous request
-  xmlHttp.send( null );
-  var htmlObject = document.createElement('div')
-  htmlObject.innerHTML = xmlHttp.responseText;
-
-  var allElems = htmlObject.getElementsByClassName("name");
-  var dirs = []
-  for (var i = 0; i < allElems.length; ++i) {
-    var elem = allElems[i];
-    var href = elem.getElementsByTagName('a')[0].href;
-    if (href[href.length - 1] == "/") {
-      href = href.substr(0, href.length - 1);
-      dirs.push(href);
-    }
-  }
-
-  var subdirs = []
-  for (var i = 0; i < dirs.length; ++i) {
-    if (dirs[i].split("/").length > 4) {
-      subdirs.push(dirs[i].substr(dirs[i].lastIndexOf('/') ));
-    }
-  }
-  return subdirs;
-}
-
-  document.addEventListener("DOMContentLoaded", ready); -->
-</script>
-
 <details class="category">
 <summary>Working projects</summary>
 <p class="details">
-Work projects, which were made during regular work. Most of them is big and long-term.
+Work projects, which were made during regular work. Big and long-term.
 <br><br>
+<a class="seventh before after" href="#odrs">Radar System</a> - Project that emulates object detection Radar System.
+<br>
+<a class="seventh before after" href="#dashcam">Navmii Dashcam</a> - Mobile ADAS system, 1.5 years project.
+<br>
 </p>
 </details>
 
@@ -99,8 +27,12 @@ Work projects, which were made during regular work. Most of them is big and long
 <details class="category">
 <summary>Freelance projects</summary>
 <p class="details">
-Freelance projects, which were made during my free time as additional income.
+Freelance projects, which were made during my free time as additional income. Usually little or middle size.
 <br><br>
+<a class="seventh before after" href="#gdocsearch">GDocSearch</a> - Live search through Google Drive documents.
+<br>
+<a class="seventh before after" href="#gametracker">GameTracker</a> -Game results tracker.
+<br>
 <a class="seventh before after" href="#wechat">WeChat</a> - Project for recording dialogs from Wechat service.
 <br>
 <a class="seventh before after" href="#youtube_downloader">YoutubeDownloader</a> - Downloading Youtube videos.
@@ -121,7 +53,7 @@ Freelance projects, which were made during my free time as additional income.
 <details class="category">
 <summary>Own and training projects</summary>
 <p class="details">
-My own projects and training projects. Usually such projects is unfinished and very rough.
+My own and training projects.
 <br><br>
 <a class="seventh before after" href="#open_translate">OpenTranslate</a> - Chrome extension for translate ENG to RUS and save words to dictionary.
 <br>
@@ -133,6 +65,98 @@ My own projects and training projects. Usually such projects is unfinished and v
 </details>
 <br>
 ...or just navigate here all projects:
+
+<hr>
+
+<!-- Just for navigation -->
+<div id="dashcam" style="">
+<a name="dashcam"></a>
+</div>
+
+<h3 style="text-transform:uppercase;color:gray">Navmii Dashcam</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2015 - 2017</h5>
+<span class="label btn-red">Machine Learning</span>
+<span class="label btn-red">Image Processing</span>
+<span class="label btn-red">OpenCV</span>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Python</span>
+<span class="label btn-red">Lua</span>
+<span class="label btn-red">Torch</span>
+<span class="label btn-red">Tensorflow</span>
+<span class="label btn-red">Caffe</span>
+<span class="label btn-red">Java</span>
+<span class="label btn-red">Android</span>
+
+Very big, long-term project on which I'm working in Navmii company.
+Main purpose of the project is to create ADAS (Advanced Driver Assisting System) for any mobile phone.
+So that user will be able to just download it from Google Play and have program that will warning him about front collisions,
+signs, lane departures and etc.
+
+Many utils were written during project, most interesting of them you can see on screenshots below, so that project is not only about
+end product (Dashcam), it is about many interesting ideas, tools, about research.
+
+During project I worked with endless count of tools and technologies: most of shallow ML methods, Deep Learning, Convolutional Networks, Caffe, Torch, OpenCV and Tensorflow frameworks, Image Processing methods, etc, etc. I even got experience of Android programming.
+
+On project working only 2 specialists, I and [Anton Varfolomeev](https://www.linkedin.com/in/dizvara/). All data is used in project we collected ourselves.
+
+Here, on screenshots, you can find:
+<ul>
+<li>Video Detector - tool that plays videos and passes frames to networks. It can work with Caffe, Torch, Tensor models. Created for testing and debugging models, also for collecting new data. Here on screenshots presented distance detection model.</li>
+<li>Annotation Tool - tool for annotation frames with many classes. For SSD networks.</li>
+<li>General Dashcam - end product.</li>
+</ul>
+
+On video you can see debug application for cars distance prediction and advertising video of out client product - Cocar.
+It works with special version of Dashcam inside.
+
+<details class="screenshot" id="dashcam">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+<div style="line-height:20%;">
+    <br>
+</div>
+<details class="video">
+<summary><div id="aligned-text">Videos</div></summary>
+<iframe id="boarded-like-image" width="896" height="504" src="https://www.youtube.com/embed/1IFp6TRLK_o" frameborder="0" allowfullscreen></iframe>
+</details>
+
+<hr>
+
+
+
+
+
+<!-- Just for navigation -->
+<div id="odrs" style="">
+<a name="odrs"></a>
+</div>
+
+<h3 style="text-transform:uppercase;color:gray">Radar System</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2015</h5>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">Low-Level Network</span>
+<span class="label btn-red">HTML</span>
+<span class="label btn-red">CSS</span>
+
+Program that emulate radar system with very various options of radar parameters, painting options, reports and etc.
+Was created to use in pair with modeling server, that calculate all math and physic, but I can't show that service because it is closed project
+ and I have not it's sources. So, for presentation purposes I've created fake targets and recorded video. Enjoy it.
+
+<i>Interface is only on Russian</i>
+
+<details class="screenshot" id="odrs">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+<div style="line-height:20%;">
+    <br>
+</div>
+<details class="video">
+<summary><div id="aligned-text">Videos</div></summary>
+<iframe id="boarded-like-image" width="896" height="504" src="https://www.youtube.com/embed/OS9GVCJooW0" frameborder="0" allowfullscreen></iframe>
+</details>
 
 <hr>
 
@@ -162,6 +186,29 @@ Program to live search in Google Documents, to copy rich text of sections that w
 <iframe id="boarded-like-image" width="896" height="504" src="https://www.youtube.com/embed/RBJry3_UYyU" frameborder="0" allowfullscreen></iframe>
 </details>
 
+<hr>
+
+<!-- Just for navigation -->
+<div id="gametracker" style="">
+<a name="gametracker"></a>
+</div>
+
+<h3 style="text-transform:uppercase;color:gray">GameTracker</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2017</h5>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">OpenCV</span>
+<span class="label btn-red">Image Processing</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">REST API</span>
+
+Program that detect win or loose user in game. For now only Hearthstone is supported, but more game will be added in future.
+
+Project was done for portal <a href="https://eloplay.com/" target="_blank" >Eloplay</a>. You can check there in downloads my tracker.
+
+<details class="screenshot" id="gametracker">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
 <hr>
 
 <!-- Just for navigation -->

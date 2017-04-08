@@ -45,7 +45,7 @@ footersvg: 'true'
 footer-links:
   dribbble:
   email: 'undeadblow@gmail.com'
-  facebook: undeadblow
+  #facebook: undeadblow
   flickr:
   #github: UndeadBlow
   instagram:
@@ -53,8 +53,8 @@ footer-links:
   pinterest:
   #rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   #google: '+МаксимГорин'
-  stackoverflow: users/1781448/undeaddragon
-  vk: 'https://vk.com/undeadblow'
+  #stackoverflow: users/1781448/undeaddragon
+  #vk: 'https://vk.com/undeadblow'
 
 # Disqus
 disqushandler: 'testingblogo'

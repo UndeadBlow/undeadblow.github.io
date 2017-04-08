@@ -8,87 +8,15 @@ theme: red
 Here you can find some examples of my projects.
 There are three main sections here:
 
-<script>
-<!-- function ready() {
-  var subdirs = getSubdirs();
-
-  for (var i = 0; i < subdirs.length; ++i) {
-    var images = getImagesList(subdirs[i]);
-    var spoiler_elems = document.getElementsByTagName('details');
-    var spoiler_elem = null;
-    for (var k = 0; k < spoiler_elems.length; ++k) {
-      if (spoiler_elems[k].id == subdirs[i].substr(1)) {
-        spoiler_elem = spoiler_elems[k];
-      }
-    }
-    if (spoiler_elem == null) {
-      return;
-    }
-    for (var j = 0; j < images.length; ++j) {
-      spoiler_elem.innerHTML += "<img src=\"" + "/images" + subdirs[i] + images[j] + "\" class=\"img-boarded\">";
-    }
-  }
-}
-
-function getImagesList(subdir) {
-  var xmlHttp = new XMLHttpRequest();
-  xmlHttp.open( "GET", '/images/' + subdir, false ); // false for synchronous request
-  xmlHttp.send( null );
-  var htmlObject = document.createElement('div')
-  htmlObject.innerHTML = xmlHttp.responseText;
-
-  var allElems = htmlObject.getElementsByClassName("name");
-  var images = []
-  for (var i = 0; i < allElems.length; ++i) {
-    var elem = allElems[i];
-    var href = elem.getElementsByTagName('a')[0].href
-    if (href.indexOf('.png') < 0 && href.indexOf('.jpg') < 0
-    && href.indexOf('.jpeg') < 0) {
-      continue;
-    } else {
-      href = href.substr(href.lastIndexOf('/'));
-      images.push(href);
-    }
-  }
-
-  return images;
-}
-
-function getSubdirs() {
-  var xmlHttp = new XMLHttpRequest();
-  xmlHttp.open( "GET", '/images', false ); // false for synchronous request
-  xmlHttp.send( null );
-  var htmlObject = document.createElement('div')
-  htmlObject.innerHTML = xmlHttp.responseText;
-
-  var allElems = htmlObject.getElementsByClassName("name");
-  var dirs = []
-  for (var i = 0; i < allElems.length; ++i) {
-    var elem = allElems[i];
-    var href = elem.getElementsByTagName('a')[0].href;
-    if (href[href.length - 1] == "/") {
-      href = href.substr(0, href.length - 1);
-      dirs.push(href);
-    }
-  }
-
-  var subdirs = []
-  for (var i = 0; i < dirs.length; ++i) {
-    if (dirs[i].split("/").length > 4) {
-      subdirs.push(dirs[i].substr(dirs[i].lastIndexOf('/') ));
-    }
-  }
-  return subdirs;
-}
-
-  document.addEventListener("DOMContentLoaded", ready); -->
-</script>
-
 <details class="category">
 <summary>Working projects</summary>
 <p class="details">
-Work projects, which were made during regular work. Most of them is big and long-term.
+Work projects, which were made during regular work. Big and long-term.
 <br><br>
+<a class="seventh before after" href="#odrs">Radar System</a> - Project that emulates object detection Radar System.
+<br>
+<a class="seventh before after" href="#dashcam">Navmii Dashcam</a> - Mobile ADAS system, 1.5 years project.
+<br>
 </p>
 </details>
 
@@ -99,8 +27,12 @@ Work projects, which were made during regular work. Most of them is big and long
 <details class="category">
 <summary>Freelance projects</summary>
 <p class="details">
-Freelance projects, which were made during my free time as additional income.
+Freelance projects, which were made during my free time as additional income. Usually little or middle size.
 <br><br>
+<a class="seventh before after" href="#gdocsearch">GDocSearch</a> - Live search through Google Drive documents.
+<br>
+<a class="seventh before after" href="#gametracker">GameTracker</a> -Game results tracker.
+<br>
 <a class="seventh before after" href="#wechat">WeChat</a> - Project for recording dialogs from Wechat service.
 <br>
 <a class="seventh before after" href="#youtube_downloader">YoutubeDownloader</a> - Downloading Youtube videos.
@@ -121,7 +53,7 @@ Freelance projects, which were made during my free time as additional income.
 <details class="category">
 <summary>Own and training projects</summary>
 <p class="details">
-My own projects and training projects. Usually such projects is unfinished and very rough.
+My own and training projects.
 <br><br>
 <a class="seventh before after" href="#open_translate">OpenTranslate</a> - Chrome extension for translate ENG to RUS and save words to dictionary.
 <br>
@@ -133,6 +65,98 @@ My own projects and training projects. Usually such projects is unfinished and v
 </details>
 <br>
 ...or just navigate here all projects:
+
+<hr>
+
+<!-- Just for navigation -->
+<div id="dashcam" style="">
+<a name="dashcam"></a>
+</div>
+
+<h3 style="text-transform:uppercase;color:gray">Navmii Dashcam</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2015 - 2017</h5>
+<span class="label btn-red">Machine Learning</span>
+<span class="label btn-red">Image Processing</span>
+<span class="label btn-red">OpenCV</span>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Python</span>
+<span class="label btn-red">Lua</span>
+<span class="label btn-red">Torch</span>
+<span class="label btn-red">Tensorflow</span>
+<span class="label btn-red">Caffe</span>
+<span class="label btn-red">Java</span>
+<span class="label btn-red">Android</span>
+
+Very big, long-term project on which I'm working in Navmii company.
+Main purpose of the project is to create ADAS (Advanced Driver Assisting System) for any mobile phone.
+So that user will be able to just download it from Google Play and have program that will warning him about front collisions,
+signs, lane departures and etc.
+
+Many utils were written during project, most interesting of them you can see on screenshots below, so that project is not only about
+end product (Dashcam), it is about many interesting ideas, tools, about research.
+
+During project I worked with endless count of tools and technologies: most of shallow ML methods, Deep Learning, Convolutional Networks, Caffe, Torch, OpenCV and Tensorflow frameworks, Image Processing methods, etc, etc. I even got experience of Android programming.
+
+On project working only 2 specialists, I and [Anton Varfolomeev](https://www.linkedin.com/in/dizvara/). All data is used in project we collected ourselves.
+
+Here, on screenshots, you can find:
+<ul>
+<li>Video Detector - tool that plays videos and passes frames to networks. It can work with Caffe, Torch, Tensor models. Created for testing and debugging models, also for collecting new data. Here on screenshots presented distance detection model.</li>
+<li>Annotation Tool - tool for annotation frames with many classes. For SSD networks.</li>
+<li>General Dashcam - end product.</li>
+</ul>
+
+On video you can see debug application for cars distance prediction and advertising video of out client product - Cocar.
+It works with special version of Dashcam inside.
+
+<details class="screenshot" id="dashcam"> <img src="/images/dashcam/7.jpg" class="img-boarded"> <img src="/images/dashcam/5.jpg" class="img-boarded"> <img src="/images/dashcam/4.jpg" class="img-boarded"> <img src="/images/dashcam/17.jpg" class="img-boarded"> <img src="/images/dashcam/11.jpg" class="img-boarded"> <img src="/images/dashcam/2.jpg" class="img-boarded"> <img src="/images/dashcam/18.jpg" class="img-boarded"> <img src="/images/dashcam/19.jpg" class="img-boarded"> <img src="/images/dashcam/3.jpg" class="img-boarded"> <img src="/images/dashcam/6.jpg" class="img-boarded"> <img src="/images/dashcam/0.jpg" class="img-boarded"> <img src="/images/dashcam/16.jpg" class="img-boarded"> <img src="/images/dashcam/9.jpg" class="img-boarded">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+<div style="line-height:20%;">
+    <br>
+</div>
+<details class="video">
+<summary><div id="aligned-text">Videos</div></summary>
+<iframe id="boarded-like-image" width="896" height="504" src="https://www.youtube.com/embed/1IFp6TRLK_o" frameborder="0" allowfullscreen></iframe>
+</details>
+
+<hr>
+
+
+
+
+
+<!-- Just for navigation -->
+<div id="odrs" style="">
+<a name="odrs"></a>
+</div>
+
+<h3 style="text-transform:uppercase;color:gray">Radar System</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2015</h5>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">Low-Level Network</span>
+<span class="label btn-red">HTML</span>
+<span class="label btn-red">CSS</span>
+
+Program that emulate radar system with very various options of radar parameters, painting options, reports and etc.
+Was created to use in pair with modeling server, that calculate all math and physic, but I can't show that service because it is closed project
+ and I have not it's sources. So, for presentation purposes I've created fake targets and recorded video. Enjoy it.
+
+<i>Interface is only on Russian</i>
+
+<details class="screenshot" id="odrs"> <img src="/images/odrs/7.jpg" class="img-boarded"> <img src="/images/odrs/5.jpg" class="img-boarded"> <img src="/images/odrs/4.jpg" class="img-boarded"> <img src="/images/odrs/3242.jpg" class="img-boarded"> <img src="/images/odrs/2.jpg" class="img-boarded"> <img src="/images/odrs/6.jpg" class="img-boarded"> <img src="/images/odrs/0.jpg" class="img-boarded">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+<div style="line-height:20%;">
+    <br>
+</div>
+<details class="video">
+<summary><div id="aligned-text">Videos</div></summary>
+<iframe id="boarded-like-image" width="896" height="504" src="https://www.youtube.com/embed/OS9GVCJooW0" frameborder="0" allowfullscreen></iframe>
+</details>
 
 <hr>
 
@@ -151,7 +175,7 @@ My own projects and training projects. Usually such projects is unfinished and v
 
 Program to live search in Google Documents, to copy rich text of sections that were found, to view it in web and etc.
 
-<details class="screenshot" id="gdocsearch"> <img src="/images/gdocsearch/ice_screenshot_20170226-194327.png" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194353.png" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194411.png" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194431.png" class="img-boarded">
+<details class="screenshot" id="gdocsearch"> <img src="/images/gdocsearch/ice_screenshot_20170226-194411.jpg" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194353.jpg" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194327.jpg" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194431.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 <div style="line-height:20%;">
@@ -162,6 +186,29 @@ Program to live search in Google Documents, to copy rich text of sections that w
 <iframe id="boarded-like-image" width="896" height="504" src="https://www.youtube.com/embed/RBJry3_UYyU" frameborder="0" allowfullscreen></iframe>
 </details>
 
+<hr>
+
+<!-- Just for navigation -->
+<div id="gametracker" style="">
+<a name="gametracker"></a>
+</div>
+
+<h3 style="text-transform:uppercase;color:gray">GameTracker</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2017</h5>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">OpenCV</span>
+<span class="label btn-red">Image Processing</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">REST API</span>
+
+Program that detect win or loose user in game. For now only Hearthstone is supported, but more game will be added in future.
+
+Project was done for portal <a href="https://eloplay.com/" target="_blank" >Eloplay</a>. You can check there in downloads my tracker.
+
+<details class="screenshot" id="gametracker"> <img src="/images/gametracker/1.png" class="img-boarded">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
 <hr>
 
 <!-- Just for navigation -->
@@ -179,7 +226,7 @@ Program to live search in Google Documents, to copy rich text of sections that w
 Simple freelance program for downloading videos from Youtube.
 Working through parsing source code of Youtube, no API methods was used.
 
-<details class="screenshot" id="youtube_downloader"> <img src="/images/youtube_downloader/10.png" class="img-boarded"> <img src="/images/youtube_downloader/11.png" class="img-boarded"> <img src="/images/youtube_downloader/13.png" class="img-boarded">
+<details class="screenshot" id="youtube_downloader"> <img src="/images/youtube_downloader/10.jpg" class="img-boarded"> <img src="/images/youtube_downloader/11.jpg" class="img-boarded"> <img src="/images/youtube_downloader/13.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -203,7 +250,7 @@ That freelance project was created to saving all the dialogs from WeChat to data
 So workflow is very simple, you run it, you login and you push Record button.
 After that everything will happen in WeChat will be recorded.
 
-<details class="screenshot" id="wechat"> <img src="/images/wechat/12.png" class="img-boarded"> <img src="/images/wechat/13.png" class="img-boarded"> <img src="/images/wechat/14.png" class="img-boarded">
+<details class="screenshot" id="wechat"> <img src="/images/wechat/14.jpg" class="img-boarded"> <img src="/images/wechat/13.jpg" class="img-boarded"> <img src="/images/wechat/12.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -232,7 +279,7 @@ Working fully with API of listed services, no parsing code, only official method
 
 It's really user-friendly and nice utility, with autofilling forms with information from video, animations, progress bar and etc.
 
-<details class="screenshot" id="video_uploader"> <img src="/images/video_uploader/15.png" class="img-boarded"> <img src="/images/video_uploader/16.png" class="img-boarded"> <img src="/images/video_uploader/17.png" class="img-boarded"> <img src="/images/video_uploader/18.png" class="img-boarded"> <img src="/images/video_uploader/19.png" class="img-boarded"> <img src="/images/video_uploader/20.png" class="img-boarded">
+<details class="screenshot" id="video_uploader"> <img src="/images/video_uploader/17.jpg" class="img-boarded"> <img src="/images/video_uploader/20.jpg" class="img-boarded"> <img src="/images/video_uploader/15.jpg" class="img-boarded"> <img src="/images/video_uploader/18.jpg" class="img-boarded"> <img src="/images/video_uploader/19.jpg" class="img-boarded"> <img src="/images/video_uploader/16.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -257,7 +304,7 @@ proxy and have flexible options. Supports many functions from site: add to frien
 
 <i>Created for educational purposes, as example how to work with REST API</i>
 
-<details class="screenshot" id="sattva"> <img src="/images/sattva/21.png" class="img-boarded"> <img src="/images/sattva/22.png" class="img-boarded"> <img src="/images/sattva/23.png" class="img-boarded"> <img src="/images/sattva/24.png" class="img-boarded"> <img src="/images/sattva/25.png" class="img-boarded"> <img src="/images/sattva/27.png" class="img-boarded"> <img src="/images/sattva/28.png" class="img-boarded"> <img src="/images/sattva/29.png" class="img-boarded"> <img src="/images/sattva/30.png" class="img-boarded"> <img src="/images/sattva/31.png" class="img-boarded"> <img src="/images/sattva/32.png" class="img-boarded"> <img src="/images/sattva/33.png" class="img-boarded"> <img src="/images/sattva/34.png" class="img-boarded">
+<details class="screenshot" id="sattva"> <img src="/images/sattva/25.jpg" class="img-boarded"> <img src="/images/sattva/28.jpg" class="img-boarded"> <img src="/images/sattva/22.jpg" class="img-boarded"> <img src="/images/sattva/30.jpg" class="img-boarded"> <img src="/images/sattva/34.jpg" class="img-boarded"> <img src="/images/sattva/27.jpg" class="img-boarded"> <img src="/images/sattva/32.jpg" class="img-boarded"> <img src="/images/sattva/33.jpg" class="img-boarded"> <img src="/images/sattva/31.jpg" class="img-boarded"> <img src="/images/sattva/23.jpg" class="img-boarded"> <img src="/images/sattva/21.jpg" class="img-boarded"> <img src="/images/sattva/29.jpg" class="img-boarded"> <img src="/images/sattva/24.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -284,7 +331,7 @@ plugins (using Dynamic Link Libraries). Also it allows to login in Windows with 
 Project performed on Qt, but uses very low-level Windows tools, so it is not cross-platform.
 Many changes was solved durig work, because app must be very safe and flexible, and main challenge was to secure card-software interaction, to prevent grabbing information with Low-Level Hooks in Windows.
 
-<details class="screenshot" id="proximity"> <img src="/images/proximity/proxauth (1).png" class="img-boarded"> <img src="/images/proximity/proxauth (2).png" class="img-boarded"> <img src="/images/proximity/proxauth (3).png" class="img-boarded"> <img src="/images/proximity/proxauth (4).png" class="img-boarded">
+<details class="screenshot" id="proximity"> <img src="/images/proximity/proxauth (1).jpg" class="img-boarded"> <img src="/images/proximity/proxauth (4).jpg" class="img-boarded"> <img src="/images/proximity/proxauth (2).jpg" class="img-boarded"> <img src="/images/proximity/proxauth (3).jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -305,7 +352,7 @@ I started that project because current translators like LinguaLeo wants money fo
 I have never worked before with Javascript, HTML and CSS before that project, but learned a few things in the process.
 For translation this extension uses three servises (at now) with open API: <a href="https://translate.yandex.ru/">Yandex.Translate</a>, <a href="https://mymemory.translated.net/">MyMemory</a> and <a href="http://www.frengly.com/">Frengly</a>.
 In the future, I'm planning to modify this exstension to save words to <a href="http://ankisrs.net/">Anki</a> format files to use it with this awesome program.
-<details class="screenshot" id="open_translate"> <img src="/images/open_translate/open-tr (1).png" class="img-boarded"> <img src="/images/open_translate/open-tr (2).png" class="img-boarded"> <img src="/images/open_translate/open-tr (3).png" class="img-boarded"> <img src="/images/open_translate/open-tr (4).png" class="img-boarded">
+<details class="screenshot" id="open_translate"> <img src="/images/open_translate/open-tr (1).jpg" class="img-boarded"> <img src="/images/open_translate/open-tr (2).jpg" class="img-boarded"> <img src="/images/open_translate/open-tr (3).jpg" class="img-boarded"> <img src="/images/open_translate/open-tr (4).jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -325,7 +372,7 @@ In the future, I'm planning to modify this exstension to save words to <a href="
 My training project within the discipline "Mathematic modeling".
 This program allows to create and edit cities in which can be modeled (through the solution of differential equations) an epidemic of different diseases with different parameters.
 Also it allows to output different plots.
-<details class="screenshot" id="pandemic"> <img src="/images/pandemic/pand (1).png" class="img-boarded"> <img src="/images/pandemic/pand (2).png" class="img-boarded"> <img src="/images/pandemic/pand (3).png" class="img-boarded"> <img src="/images/pandemic/pand (4).png" class="img-boarded"> <img src="/images/pandemic/pand (5).png" class="img-boarded"> <img src="/images/pandemic/pand (6).png" class="img-boarded"> <img src="/images/pandemic/pand (7).png" class="img-boarded">
+<details class="screenshot" id="pandemic"> <img src="/images/pandemic/pand (1).jpg" class="img-boarded"> <img src="/images/pandemic/pand (3).jpg" class="img-boarded"> <img src="/images/pandemic/pand (6).jpg" class="img-boarded"> <img src="/images/pandemic/pand (4).jpg" class="img-boarded"> <img src="/images/pandemic/pand (2).jpg" class="img-boarded"> <img src="/images/pandemic/pand (7).jpg" class="img-boarded"> <img src="/images/pandemic/pand (5).jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -346,6 +393,6 @@ My own project, that I wrote for myself. That program designed for parsing russi
 When amount of good or price changes - program notifies user about event in various ways (sound, colored row in table and tray message).
 Program have different options, such as color setting, delay setting, sound enable\disable, etc.
 
-<details class="screenshot" id="ulmart"> <img src="/images/ulmart/ulmart (1).png" class="img-boarded"> <img src="/images/ulmart/ulmart (2).png" class="img-boarded"> <img src="/images/ulmart/ulmart (3).png" class="img-boarded"> <img src="/images/ulmart/ulmart (4).png" class="img-boarded"> <img src="/images/ulmart/ulmart (5).png" class="img-boarded"> <img src="/images/ulmart/ulmart (6).png" class="img-boarded"> <img src="/images/ulmart/ulmart (7).png" class="img-boarded"> <img src="/images/ulmart/ulmart (8).png" class="img-boarded">
+<details class="screenshot" id="ulmart"> <img src="/images/ulmart/ulmart (5).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (4).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (7).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (6).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (2).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (1).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (3).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (8).jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
