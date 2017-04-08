@@ -31,7 +31,7 @@ Freelance projects, which were made during my free time as additional income. Us
 <br><br>
 <a class="seventh before after" href="#gdocsearch">GDocSearch</a> - Live search through Google Drive documents.
 <br>
-<a class="seventh before after" href="#gametracker">GameTracker</a> -Game results tracker.
+<a class="seventh before after" href="#gametracker">GameTracker</a> - Game results tracker.
 <br>
 <a class="seventh before after" href="#wechat">WeChat</a> - Project for recording dialogs from Wechat service.
 <br>
