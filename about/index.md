@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-![It's me](/images/me.png)
+![It's me](/images/ava.jpg)
 
 Hello, my name is Maksim Kuprashevich, and mainly I am IT specialist and software developer.
 
@@ -34,6 +34,6 @@ And yes, I love to learn. That's, maybe, my meaning of life.
 Programming, Software Development, Data Science, Machine Learning, Artificial Intelligence, Cybernetics, Electronics, Computer Science and Algorithms, Biology, Medicine, Genetics, Bioinformatics, Chemistry, Zoology, Physics... how much I wish to know perfectly and how short our life is!
 Thanks to MOOCs we can do something with that sad fact.
 
-P.S. Details about my skills you can find at [Resume](http://undeadblow.github.io/resume/) section on this resource (menu bar at left of the screen) or at [LinkedIn](https://www.linkedin.com/pub/maksim-kuprashevich/80/a96/183).
+P.S. Details about my skills you can find at [Resume](http://undeadblow.github.io/resume/) section.
 
 Also here you can enjoy my portfolio and my profiles in many social networks. Good luck!

@@ -4,7 +4,9 @@ title: Resume
 description: Resume of Kuprashevich Maksim
 theme: blue
 ---
-For now, I am Machine Learning expert, also I'm software developer with production and freelance experience.   
+For now, I am Machine Learning expert, also I'm software developer with production and freelance experience.
+Most of time I work with Linux (about 7 years user experience). But because of freelance experience I know Win and Mac also very good.
+I'm skilled with building all listed libraries on these three systems also, and have good deploy experience.
 
 I am active on such freelance recourses like <a href="https://www.upwork.com/freelancers/~0139a187ce476c2d01" target="_blank" >Upwork</a> or <a href="https://freelance.ru/" target="_blank">freelance.ru</a>.
 
@@ -18,7 +20,7 @@ I am active on such freelance recourses like <a href="https://www.upwork.com/fre
 			<div class="col-md-6">
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Main languages</strong></h4></li>
-					<li class="list-group-item">C++ since 2011 (03, 11, 14)</li>
+					<li class="list-group-item">C++ since 2011 (03, 11, 14, 17)</li>
 					<li class="list-group-item">Python since 2013</li>
 					<li class="list-group-item active"><h4><strong>Also have some experience:</strong></h4></li>
 				  <li class="list-group-item">C</li>
@@ -36,11 +38,11 @@ I am active on such freelance recourses like <a href="https://www.upwork.com/fre
 			<div class="col-md-6">
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Technologies skills</strong></h4></li>
-					<li class="list-group-item"><i>C++ Frameworks: </i>Qt (since 2011, I love it), STL, Boost</li>
-					<li class="list-group-item"><i>Machine Learning methods: </i>Deep Neural networks, MLP, SVM, Random Forests, Nearest neighbor, Linear and Logistic regression, etc.</li>
+					<li class="list-group-item"><i>C++ Frameworks: </i>Qt (since 2011, any version, I love it), STL, Boost</li>
+					<li class="list-group-item"><i>Machine Learning methods: </i>Deep Neural networks, MLP, SVM, Random Forests, XGBoost, Nearest neighbor, Linear and Logistic regression, etc.</li>
 					<li class="list-group-item"><i>Machine Learning frameworks: </i>Torch, Caffe, OpenCV, Theano, Keras, a little TensorFlow.</li>
 					<li class="list-group-item"><i>Versions control: </i>Git, SVN</li>
-					<li class="list-group-item"><i>Build automation tools: </i>cmake, make, qmake, nmake, a little gradle</li>
+					<li class="list-group-item"><i>Build automation tools: </i>cmake, make, qmake, nmake, gradle</li>
 					<li class="list-group-item"><i>IDE: </i>Qt Creator, Visual Studio (any version ofc), WebStorm, PyCharm, Android Studio, Eclipse, R Studio, etc</li>
 					<li class="list-group-item"><i>Static and dynamic analyzers: </i>CppCheck, PVS-Studio, Valgrind</li>
 					<li class="list-group-item"><i>Installers: </i>NSIS, bash :)</li>

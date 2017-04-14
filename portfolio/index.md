@@ -110,7 +110,7 @@ Here, on screenshots, you can find:
 On video you can see debug application for cars distance prediction and advertising video of out client product - Cocar.
 It works with special version of Dashcam inside.
 
-<details class="screenshot" id="dashcam"> <img src="/images/dashcam/7.jpg" class="img-boarded"> <img src="/images/dashcam/5.jpg" class="img-boarded"> <img src="/images/dashcam/4.jpg" class="img-boarded"> <img src="/images/dashcam/17.jpg" class="img-boarded"> <img src="/images/dashcam/11.jpg" class="img-boarded"> <img src="/images/dashcam/2.jpg" class="img-boarded"> <img src="/images/dashcam/18.jpg" class="img-boarded"> <img src="/images/dashcam/19.jpg" class="img-boarded"> <img src="/images/dashcam/3.jpg" class="img-boarded"> <img src="/images/dashcam/6.jpg" class="img-boarded"> <img src="/images/dashcam/0.jpg" class="img-boarded"> <img src="/images/dashcam/16.jpg" class="img-boarded"> <img src="/images/dashcam/9.jpg" class="img-boarded">
+<details class="screenshot" id="dashcam"> <img src="/images/dashcam/0.jpg" class="img-boarded"> <img src="/images/dashcam/1.jpg" class="img-boarded"> <img src="/images/dashcam/11.jpg" class="img-boarded"> <img src="/images/dashcam/16.jpg" class="img-boarded"> <img src="/images/dashcam/17.jpg" class="img-boarded"> <img src="/images/dashcam/18.jpg" class="img-boarded"> <img src="/images/dashcam/19.jpg" class="img-boarded"> <img src="/images/dashcam/2.jpg" class="img-boarded"> <img src="/images/dashcam/22.png" class="img-boarded"> <img src="/images/dashcam/23.png" class="img-boarded"> <img src="/images/dashcam/24.png" class="img-boarded"> <img src="/images/dashcam/25.png" class="img-boarded"> <img src="/images/dashcam/3.jpg" class="img-boarded"> <img src="/images/dashcam/4.jpg" class="img-boarded"> <img src="/images/dashcam/5.jpg" class="img-boarded"> <img src="/images/dashcam/6.jpg" class="img-boarded"> <img src="/images/dashcam/7.jpg" class="img-boarded"> <img src="/images/dashcam/9.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 <div style="line-height:20%;">
@@ -147,7 +147,7 @@ Was created to use in pair with modeling server, that calculate all math and phy
 
 <i>Interface is only on Russian</i>
 
-<details class="screenshot" id="odrs"> <img src="/images/odrs/7.jpg" class="img-boarded"> <img src="/images/odrs/5.jpg" class="img-boarded"> <img src="/images/odrs/4.jpg" class="img-boarded"> <img src="/images/odrs/3242.jpg" class="img-boarded"> <img src="/images/odrs/2.jpg" class="img-boarded"> <img src="/images/odrs/6.jpg" class="img-boarded"> <img src="/images/odrs/0.jpg" class="img-boarded">
+<details class="screenshot" id="odrs"> <img src="/images/odrs/0.jpg" class="img-boarded"> <img src="/images/odrs/2.jpg" class="img-boarded"> <img src="/images/odrs/3242.jpg" class="img-boarded"> <img src="/images/odrs/4.jpg" class="img-boarded"> <img src="/images/odrs/5.jpg" class="img-boarded"> <img src="/images/odrs/6.jpg" class="img-boarded"> <img src="/images/odrs/7.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 <div style="line-height:20%;">
@@ -175,7 +175,7 @@ Was created to use in pair with modeling server, that calculate all math and phy
 
 Program to live search in Google Documents, to copy rich text of sections that were found, to view it in web and etc.
 
-<details class="screenshot" id="gdocsearch"> <img src="/images/gdocsearch/ice_screenshot_20170226-194411.jpg" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194353.jpg" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194327.jpg" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194431.jpg" class="img-boarded">
+<details class="screenshot" id="gdocsearch"> <img src="/images/gdocsearch/ice_screenshot_20170226-194327.jpg" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194353.jpg" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194411.jpg" class="img-boarded"> <img src="/images/gdocsearch/ice_screenshot_20170226-194431.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 <div style="line-height:20%;">
@@ -206,7 +206,7 @@ Program that detect win or loose user in game. For now only Hearthstone is suppo
 
 Project was done for portal <a href="https://eloplay.com/" target="_blank" >Eloplay</a>. You can check there in downloads my tracker.
 
-<details class="screenshot" id="gametracker"> <img src="/images/gametracker/1.png" class="img-boarded">
+<details class="screenshot" id="gametracker"> <img src="/images/gametracker/1.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 <hr>
@@ -250,7 +250,7 @@ That freelance project was created to saving all the dialogs from WeChat to data
 So workflow is very simple, you run it, you login and you push Record button.
 After that everything will happen in WeChat will be recorded.
 
-<details class="screenshot" id="wechat"> <img src="/images/wechat/14.jpg" class="img-boarded"> <img src="/images/wechat/13.jpg" class="img-boarded"> <img src="/images/wechat/12.jpg" class="img-boarded">
+<details class="screenshot" id="wechat"> <img src="/images/wechat/12.jpg" class="img-boarded"> <img src="/images/wechat/13.jpg" class="img-boarded"> <img src="/images/wechat/14.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -279,7 +279,7 @@ Working fully with API of listed services, no parsing code, only official method
 
 It's really user-friendly and nice utility, with autofilling forms with information from video, animations, progress bar and etc.
 
-<details class="screenshot" id="video_uploader"> <img src="/images/video_uploader/17.jpg" class="img-boarded"> <img src="/images/video_uploader/20.jpg" class="img-boarded"> <img src="/images/video_uploader/15.jpg" class="img-boarded"> <img src="/images/video_uploader/18.jpg" class="img-boarded"> <img src="/images/video_uploader/19.jpg" class="img-boarded"> <img src="/images/video_uploader/16.jpg" class="img-boarded">
+<details class="screenshot" id="video_uploader"> <img src="/images/video_uploader/15.jpg" class="img-boarded"> <img src="/images/video_uploader/16.jpg" class="img-boarded"> <img src="/images/video_uploader/17.jpg" class="img-boarded"> <img src="/images/video_uploader/18.jpg" class="img-boarded"> <img src="/images/video_uploader/19.jpg" class="img-boarded"> <img src="/images/video_uploader/20.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -304,7 +304,7 @@ proxy and have flexible options. Supports many functions from site: add to frien
 
 <i>Created for educational purposes, as example how to work with REST API</i>
 
-<details class="screenshot" id="sattva"> <img src="/images/sattva/25.jpg" class="img-boarded"> <img src="/images/sattva/28.jpg" class="img-boarded"> <img src="/images/sattva/22.jpg" class="img-boarded"> <img src="/images/sattva/30.jpg" class="img-boarded"> <img src="/images/sattva/34.jpg" class="img-boarded"> <img src="/images/sattva/27.jpg" class="img-boarded"> <img src="/images/sattva/32.jpg" class="img-boarded"> <img src="/images/sattva/33.jpg" class="img-boarded"> <img src="/images/sattva/31.jpg" class="img-boarded"> <img src="/images/sattva/23.jpg" class="img-boarded"> <img src="/images/sattva/21.jpg" class="img-boarded"> <img src="/images/sattva/29.jpg" class="img-boarded"> <img src="/images/sattva/24.jpg" class="img-boarded">
+<details class="screenshot" id="sattva"> <img src="/images/sattva/21.jpg" class="img-boarded"> <img src="/images/sattva/22.jpg" class="img-boarded"> <img src="/images/sattva/23.jpg" class="img-boarded"> <img src="/images/sattva/24.jpg" class="img-boarded"> <img src="/images/sattva/25.jpg" class="img-boarded"> <img src="/images/sattva/27.jpg" class="img-boarded"> <img src="/images/sattva/28.jpg" class="img-boarded"> <img src="/images/sattva/29.jpg" class="img-boarded"> <img src="/images/sattva/30.jpg" class="img-boarded"> <img src="/images/sattva/31.jpg" class="img-boarded"> <img src="/images/sattva/32.jpg" class="img-boarded"> <img src="/images/sattva/33.jpg" class="img-boarded"> <img src="/images/sattva/34.jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -331,7 +331,7 @@ plugins (using Dynamic Link Libraries). Also it allows to login in Windows with 
 Project performed on Qt, but uses very low-level Windows tools, so it is not cross-platform.
 Many changes was solved durig work, because app must be very safe and flexible, and main challenge was to secure card-software interaction, to prevent grabbing information with Low-Level Hooks in Windows.
 
-<details class="screenshot" id="proximity"> <img src="/images/proximity/proxauth (1).jpg" class="img-boarded"> <img src="/images/proximity/proxauth (4).jpg" class="img-boarded"> <img src="/images/proximity/proxauth (2).jpg" class="img-boarded"> <img src="/images/proximity/proxauth (3).jpg" class="img-boarded">
+<details class="screenshot" id="proximity"> <img src="/images/proximity/proxauth (1).jpg" class="img-boarded"> <img src="/images/proximity/proxauth (2).jpg" class="img-boarded"> <img src="/images/proximity/proxauth (3).jpg" class="img-boarded"> <img src="/images/proximity/proxauth (4).jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -372,7 +372,7 @@ In the future, I'm planning to modify this exstension to save words to <a href="
 My training project within the discipline "Mathematic modeling".
 This program allows to create and edit cities in which can be modeled (through the solution of differential equations) an epidemic of different diseases with different parameters.
 Also it allows to output different plots.
-<details class="screenshot" id="pandemic"> <img src="/images/pandemic/pand (1).jpg" class="img-boarded"> <img src="/images/pandemic/pand (3).jpg" class="img-boarded"> <img src="/images/pandemic/pand (6).jpg" class="img-boarded"> <img src="/images/pandemic/pand (4).jpg" class="img-boarded"> <img src="/images/pandemic/pand (2).jpg" class="img-boarded"> <img src="/images/pandemic/pand (7).jpg" class="img-boarded"> <img src="/images/pandemic/pand (5).jpg" class="img-boarded">
+<details class="screenshot" id="pandemic"> <img src="/images/pandemic/pand (1).jpg" class="img-boarded"> <img src="/images/pandemic/pand (2).jpg" class="img-boarded"> <img src="/images/pandemic/pand (3).jpg" class="img-boarded"> <img src="/images/pandemic/pand (4).jpg" class="img-boarded"> <img src="/images/pandemic/pand (5).jpg" class="img-boarded"> <img src="/images/pandemic/pand (6).jpg" class="img-boarded"> <img src="/images/pandemic/pand (7).jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 
@@ -393,6 +393,6 @@ My own project, that I wrote for myself. That program designed for parsing russi
 When amount of good or price changes - program notifies user about event in various ways (sound, colored row in table and tray message).
 Program have different options, such as color setting, delay setting, sound enable\disable, etc.
 
-<details class="screenshot" id="ulmart"> <img src="/images/ulmart/ulmart (5).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (4).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (7).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (6).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (2).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (1).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (3).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (8).jpg" class="img-boarded">
+<details class="screenshot" id="ulmart"> <img src="/images/ulmart/ulmart (1).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (2).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (3).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (4).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (5).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (6).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (7).jpg" class="img-boarded"> <img src="/images/ulmart/ulmart (8).jpg" class="img-boarded">
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
