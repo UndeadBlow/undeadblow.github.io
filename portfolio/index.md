@@ -115,7 +115,7 @@ Here, on screenshots, you can find:
 On video there is another project with our library - Cocar.
 It is very special version of our library because Cocar has 180 degree camera and very hard limitations of computational power.
 
-<details class="screenshot" id="dashcam"><div class="gallery"><a target="_blank" href="/images/dashcam/24.jpg"><img src="/images/dashcam/24.jpg" width="300" height="200"></a><div class="desc">No description</div></div>
+<details class="screenshot" id="dashcam"><div class="gallery"><a target="_blank" href="/images/dashcam/24.jpg"><img src="/images/dashcam/24.jpg" width="300" height="200"></a><div class="desc">Navmii AI Dashcam main page on GooglePlay</div></div>
 <summary><div id="aligned-text">Screenshots</div></summary>
 </details>
 <div style="line-height:20%;">
