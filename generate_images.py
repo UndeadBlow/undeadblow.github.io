@@ -1,6 +1,5 @@
 import os
 import sys
-import cv2
 import random
 import shutil
 import numpy as np
@@ -8,8 +7,8 @@ import re
 
 def GetAllFilesList(path, extensions):
     files = [os.path.join(path, fn) for fn in next(os.walk(path))[2]]
+    files.sort(key = lambda f: int(filter(str.isdigit, f)))
     files = filter(lambda file: 'directory' not in file, files)
-
     return list(filter(lambda file: sum([ext in file.lower() for ext in extensions]) > 0, files))
 
 def GetAllFilesListRecusive(path, extensions):
@@ -22,8 +21,16 @@ def GetAllFilesListRecusive(path, extensions):
     return files_all
 
 
+img_template = '''<div class="gallery"><a target="_blank" href="%img"><img src="%img" width="300" height="200"></a><div class="desc">%descr</div></div>'''
 
+def getImageCode(img_path, descr = None):
+    global img_template
+    temp = img_template.replace('''%img''', img_path)
 
+    if descr != None:
+        temp = temp.replace('''%descr''', descr)
+
+    return temp
 
 possible_images = ['.jpg', '.png']
 d = './images'
@@ -52,9 +59,18 @@ with open('portfolio/index_temp.md', 'r') as file:
             for subdir in images_subdirs:
                 if det_id in subdir:
                     images = GetAllFilesList(subdir, possible_images)
+                    descrs = GetAllFilesList(subdir, ['.descr', '.txt'])
+                    print('descrs', descrs)
                     images = list([img[1:] for img in images])
                     for img in images:
-                        det_html += " <img src=\"" + img + "\" class=\"img-boarded\">";
+                        pure_name = img[: img.rfind('.')]
+                        descr_file_list = list([d for d in descrs if pure_name in d])
+                        descr = 'No description'
+                        if len(descr_file_list) > 0:
+                            with open(descr_file_list[0], 'r') as file:
+                                descr = file.read().strip()
+                        print('getImageCode(img, descr):', getImageCode(img, descr))
+                        det_html += getImageCode(img, descr)
                         #print('det_html', det_html)
             data = data[: start] + det_html + data[data.find('>', start) + 1 : ]
 

@@ -262,3 +262,28 @@ a.orange-link:focus {
 }
 
 .icon-back{background-position:-966px -40px ; width: 48px ; height: 48px;display:inline-block;text-decoration:none}
+
+div.gallery {
+    /*margin: 5px;*/
+    /*border: 1px solid #ccc;*/
+    /*float: left;*/
+    display: inline-block;
+    width: 180px;
+    margin: 10px;
+    border: 2px dashed #5b2d8d;
+}
+
+div.gallery:hover {
+    border: 2px solid #5b2d8d
+}
+
+div.gallery img {
+    width: 176px;
+    height: 165px;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 9pt;
+}

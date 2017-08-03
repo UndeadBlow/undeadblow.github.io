@@ -88,27 +88,32 @@ My own and training projects.
 <span class="label btn-red">Java</span>
 <span class="label btn-red">Android</span>
 
-Very big, long-term project on which I'm working in Navmii company.
-Main purpose of the project is to create ADAS (Advanced Driver Assisting System) for any mobile phone.
-So that user will be able to just download it from Google Play and have program that will warning him about front collisions,
-signs, lane departures and etc.
+Very big, long-term project on which I'm worked at Navmii company.
+For a long time we developed ADAS [Advanced Drive Assistance System](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems) library for mobile platforms.
 
-Many utils were written during project, most interesting of them you can see on screenshots below, so that project is not only about
-end product (Dashcam), it is about many interesting ideas, tools, about research.
+Main purpose was to create mobile application for Google Play and AppStore, but we also intagrated the library in a variety of other company projects.
 
-During project I worked with endless count of tools and technologies: most of shallow ML methods, Deep Learning, Convolutional Networks, Caffe, Torch, OpenCV and Tensorflow frameworks, Image Processing methods, etc, etc. I even got experience of Android programming.
+So idea of main application is simple: user will be able to just download app to have system on his mobile phone that will warn him about collisions on road, signs, lanes and other dangers on road.
 
-On project working only 2 specialists, I and [Anton Varfolomeev](https://www.linkedin.com/in/dizvara/). All data is used in project we collected ourselves.
+In Jule 2017 app was released for GooglePlay. [You can find it here](https://play.google.com/store/apps/details?id=com.navmii.android.dashcam&hl=ru).
+You can find some screenshots of application here below. Also you can find there screenshots of world map with detected (purely on user mobile, without any other information!) signs. It fantastic, check it.
+
+Many software utils were written during project, most interesting of them you can see also on screenshots below, so that project is not only about ADAS library, but also about many interesting ideas, tools, about research!
+
+During project I worked with very much external tools and technologies: most of shallow ML methods, Deep Learning, Convolutional Networks, Caffe, Torch, OpenCV and Tensorflow frameworks, Image Processing methods, etc, etc. I even got a little experience of Android programming :)
+
+On project working only 2 specialists, I and [Anton Varfolomeev](https://www.linkedin.com/in/dizvara/). Most of models were trained with data we collected and processed ourselves.
 
 Here, on screenshots, you can find:
 <ul>
-<li>Video Detector - tool that plays videos and passes frames to networks. It can work with Caffe, Torch, Tensor models. Created for testing and debugging models, also for collecting new data. Here on screenshots presented distance detection model.</li>
+<li>Video Detector - tool that plays videos and passes frames to networks. It can work with Caffe, Torch, Tensor models. Created for testing and debugging models, also for collecting new data. Here on screenshots presented mostly distance detection model.</li>
 <li>Annotation Tool - tool for annotation frames with many classes. For SSD networks.</li>
-<li>General Dashcam - end product.</li>
+<li>General Dashcam - mobile app with our library. Some of screenshot are with debug overlay to show you how it works. </li>
+<li>Navmii labs - world map with signs that were collected from users.</li>
 </ul>
 
-On video you can see debug application for cars distance prediction and advertising video of out client product - Cocar.
-It works with special version of Dashcam inside.
+On video there is another project with our library - Cocar.
+It is very special version of our library because Cocar has 180 degree camera and very hard limitations of computational power.
 
 <details class="screenshot" id="dashcam">
 <summary><div id="aligned-text">Screenshots</div></summary>
