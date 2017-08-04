@@ -1,0 +1,1 @@
+Main window with options and actions

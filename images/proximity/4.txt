@@ -1,0 +1,1 @@
+Plugins options. You can add your own .dll with plugin or to configure existing

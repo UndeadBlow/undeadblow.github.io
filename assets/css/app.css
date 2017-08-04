@@ -267,6 +267,7 @@ div.gallery {
     /*margin: 5px;*/
     /*border: 1px solid #ccc;*/
     /*float: left;*/
+    vertical-align:top;
     display: inline-block;
     width: 180px;
     margin: 10px;
@@ -280,10 +281,12 @@ div.gallery:hover {
 div.gallery img {
     width: 176px;
     height: 165px;
+    object-fit: contain;
 }
 
 div.desc {
-    padding: 5px;
+    padding: 4px;
     text-align: center;
     font-size: 9pt;
+    height: 60px;
 }

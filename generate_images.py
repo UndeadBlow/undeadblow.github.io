@@ -57,21 +57,40 @@ with open('portfolio/index_temp.md', 'r') as file:
             det_id = det_html[det_html.find('id=\"') + 4 : det_html.rfind('\"')]
             print('id: ', det_id)
             for subdir in images_subdirs:
+
+
                 if det_id in subdir:
+
                     images = GetAllFilesList(subdir, possible_images)
-                    descrs = GetAllFilesList(subdir, ['.descr', '.txt'])
+
+                    ####
+                    descrs_files = GetAllFilesList(subdir, ['.descr', '.txt'])
+                    descrs = {}
+                    for d in descrs_files:
+                        pure_name = d[d.rfind('/') + 1 : d.rfind('.')]
+                        with open(d, 'r') as file:
+                            descr = file.read().strip()
+                            descrs[pure_name] = descr
+
+
+                    # max_len = max(list([len(d) for d in descrs.values()])) if len(descrs) > 0 else 0
+                    # for k in descrs.keys():
+                    #     descrs[k] = descrs[k] + (' ' * (max_len - len(descrs[k])))
+                    ####
+
                     print('descrs', descrs)
+
                     images = list([img[1:] for img in images])
                     for img in images:
-                        pure_name = img[: img.rfind('.')]
-                        descr_file_list = list([d for d in descrs if pure_name in d])
-                        descr = 'No description'
-                        if len(descr_file_list) > 0:
-                            with open(descr_file_list[0], 'r') as file:
-                                descr = file.read().strip()
+                        pure_name = img[img.rfind('/') + 1 : img.rfind('.')]
+                        descr = descrs[pure_name] if pure_name in descrs else 'No description'
+
                         print('getImageCode(img, descr):', getImageCode(img, descr))
                         det_html += getImageCode(img, descr)
                         #print('det_html', det_html)
+
+
+
             data = data[: start] + det_html + data[data.find('>', start) + 1 : ]
 
 with open('./portfolio/index.md', 'w') as f:

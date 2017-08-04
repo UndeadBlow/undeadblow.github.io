@@ -1,0 +1,1 @@
+Dialog allows to choose what program to run after user used his individual smart card
