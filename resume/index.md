@@ -140,8 +140,13 @@ I am active on such freelance recourses like <a href="https://www.upwork.com/fre
 			</li>
 			<li>
 				<h4><a href="http://navmii.com/" target="_blank" >Navmii</a></h4>
-				<h5>November 2015 - Present</h5>
+				<h5>November 2015 - August 2017</h5>
 				<p>Machine Learning expert: Advanced Driver Assisting Systems, Computer Vision, Image processing, Shallow and Deep Learning methods.</p>
+			</li>
+			<li>
+				<h4><a href="http://lanit-tercom.com/" target="_blank" >Lanit-Tercom</a></h4>
+				<h5>August 2017 - Present</h5>
+				<p>Research & Development Engineer</p>
 			</li>
 		</ul>
 	</div>
