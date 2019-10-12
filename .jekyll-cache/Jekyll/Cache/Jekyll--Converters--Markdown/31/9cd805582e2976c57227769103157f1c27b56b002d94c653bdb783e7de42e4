@@ -1,20 +1,14 @@
----
-layout: page
-title: Resume
-description: Resume of Kuprashevich Maksim
-theme: blue
----
-For now, I am Lead Machine Learning expert, also I'm software developer with production and freelance experience.
-You can check here my hard skills or watch some of projects in the Portfolio section on the left.
+I"‰$<p>For now, I am Lead Machine Learning expert, also Iâ€™m software developer with production and freelance experience.
+You can check here my hard skills or watch some of projects in the Portfolio section on the left.</p>
 
-If you want to know more, <a class="seventh before after" href="#bottom">here on the bottom</a> you can check how my usual workflow looks.
+<p>If you want to know more, <a class="seventh before after" href="#bottom">here on the bottom</a> you can check how my usual workflow looks.</p>
 
-<br>
-<hr>
+<p><br /></p>
+<hr />
 
 <section class="row">
 	<header class="col-md-2">
-		<h3 style="text-transform:uppercase;color:gray">Skills<br>and knowledges</h3>
+		<h3 style="text-transform:uppercase;color:gray">Skills<br />and knowledges</h3>
 	</header>
 	<div class="col-md-9">
 		<div class="row">
@@ -71,7 +65,8 @@ If you want to know more, <a class="seventh before after" href="#bottom">here on
 		</div>
 	</div>
 </section>
-<hr/>
+<hr />
+
 <!-- Education -->
 <section class="row">
 	<header class="col-md-2">
@@ -90,11 +85,12 @@ If you want to know more, <a class="seventh before after" href="#bottom">here on
 		</ul>
 	</div>
 </section>
-<hr/>
+<hr />
+
 <!-- Courses -->
 <section class="row">
 	<header class="col-md-2">
-		<h3 style="text-transform:uppercase;color:gray">Courses<br>and certificates</h3>
+		<h3 style="text-transform:uppercase;color:gray">Courses<br />and certificates</h3>
 	</header>
 	<div class="col-md-9">
 		<ul>
@@ -124,7 +120,8 @@ If you want to know more, <a class="seventh before after" href="#bottom">here on
 		</ul>
 	</div>
 </section>
-<hr/>
+<hr />
+
 <!-- Work -->
 <section class="row">
 	<header class="col-md-2">
@@ -138,56 +135,57 @@ If you want to know more, <a class="seventh before after" href="#bottom">here on
 				<p>As a hobby, sometimes I carry out projects on portals as Upwork.</p>
 			</li>
 			<li>
-				<h4><a href="http://www.npk-pelengator.ru/" target="_blank" >NPK-Pelengator</a></h4>
+				<h4><a href="http://www.npk-pelengator.ru/" target="_blank">NPK-Pelengator</a></h4>
 				<h5>April 2015 - November 2015</h5>
 				<p>Software engineer (C++, Qt 4/5, STL). Main responsibility: GUI design, Math Models, Data Science, deployment.</p>
 			</li>
 			<li>
-				<h4><a href="http://navmii.com/" target="_blank" >Navmii</a></h4>
+				<h4><a href="http://navmii.com/" target="_blank">Navmii</a></h4>
 				<h5>November 2015 - August 2017</h5>
 				<p>Machine Learning expert: Advanced Driver Assisting Systems, Computer Vision, Image processing, Shallow and Deep Learning methods.</p>
 			</li>
 			<li>
-				<h4><a href="http://lanit-tercom.com/" target="_blank" >Lanit-Tercom</a></h4>
+				<h4><a href="http://lanit-tercom.com/" target="_blank">Lanit-Tercom</a></h4>
 				<h5>August 2017 - Present</h5>
-				<p>Research & Development Engineer</p>
+				<p>Research &amp; Development Engineer</p>
 			</li>
 		</ul>
 	</div>
 </section>
-<hr/>
+<hr />
 
-<a name="bottom"></a>
+<p><a name="bottom"></a>
+	&lt;section class="row"&gt;
+	&lt;header class="col-md-2"&gt;
+		&lt;h3 style="text-transform:uppercase;color:gray"&gt;Responsibilities&lt;/h3&gt;
+	&lt;/header&gt;
+	&lt;div class="col-md-9"&gt;
+	Mainly, I work as R&amp;D. That means, usually client has only idea and nothing else. Often even no data.
+	Usually, for good solution never enough open sources with data.
+	<br />
+	So first, I work with data. And it usually takes the most time. 
+	I decide how, where, when and what to collect, then the same for annotate. 
+	I tried maybe all existing methods and tools for this, from myself annotation to Yandex Toloka and Amazon MT. So I know in what case what to use.</p>
 
-<section class="row">
-	<header class="col-md-2">
-		<h3 style="text-transform:uppercase;color:gray">Responsibilities</h3>
-	</header>
-	<div class="col-md-9">
-&#09;Mainly, I work as R&D. That means, usually client has only idea and nothing else. 
-Often even no data.
-<br><br>
-But for good solution never enough open sources. So first, I work with data. And it usually takes the most time. 
-I decide how, where, when and what to collect, then the same for annotate. 
-I tried maybe all existing methods and tools for this, from myself annotation to Yandex Toloka and Amazon MT. So I know in what case what to use.
-<br><br>
-Second, I read, research, invent and trying in accordance with the modern scientific method.
+<pre><code>Second, I read, research, invent and trying in accordance with the modern scientific method.
 Ready code from Github, implement idea from article or invent something main? Happens all of that.
-<br><br>
-Third, when R&D stage gets ready enough, I move to pure software development, according requirements, target hardware and other conditions.
+
+Third, when R&amp;D stage gets ready enough, I move to pure software development, according requirements, target hardware and other conditions.
 If I am free to choose, I prefer to do everything as optimized as it's possible. So most of my production projects related to DL werre done with C++, OpenCV and Tensorflow.
-<br><br>
+
 Forth, if the project allows, follows test stage. I mean a serious testing of the system on exclusively real data, usually collected by us, with coverage of all user cases.
 And finally, on the last stage I usually do a few iterations of project specific optimizations. That not always needed, but quite often.
 That can include many things: 
- - Code analyze and optimization with or without tools
- - Networks optimization with pruning, quantization and architecture adaptation
- - Algorithms optimization, some tricks like backgroud analyze, frame skipping, batching, tracking and so on. That's very task-specific
- - Total software optimization, thorough verification of module interaction and usage of all available resources
-<br><br>
+- Code analyze and optimization with or without tools
+- Networks optimization with pruning, quantization and architecture adaptation
+- Algorithms optimization, some tricks like backgroud analyze, frame skipping, batching, tracking and so on. That's very task-specific
+- Total software optimization, thorough verification of module interaction and usage of all available resources
+
 This is how I usually work. Parts of the stages may not exist or they may look very different, it all depends on the project.
-<br><br>
+
 Of course, in addition to this, there are completely different tasks from soldering somewhere and going to collect data yourself to a business trip to a client or speaking at a conference.
 But this is outsource, stern and merciless.
-	</div>
-</section>
+&lt;/div&gt;
+</code></pre>
+<p>&lt;/section&gt;</p>
+:ET
