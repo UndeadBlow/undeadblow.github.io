@@ -4,11 +4,26 @@ title: Resume
 description: Resume of Kuprashevich Maksim
 theme: blue
 ---
-For now, I am Machine Learning expert, also I'm software developer with production and freelance experience.
-Most of time I work with Linux (about 7 years user experience). But because of freelance experience I know Win and Mac also very good.
-I'm skilled with building all listed libraries on these three systems also, and have good deploy experience.
+For now, I am Lead Machine Learning expert, also I'm software developer with production and freelance experience.
+You can check here my hard skills or watch some of projects in the Portfolio section on the left.
 
-I am active on such freelance recourses like <a href="https://www.upwork.com/freelancers/~0139a187ce476c2d01" target="_blank" >Upwork</a> or <a href="https://freelance.ru/" target="_blank">freelance.ru</a>.
+Here I will try to describe briefly my typical job responsibilities.
+
+Mainly, I work as R&D. That means, usually client has only idea and nothing else. Often even no data.
+So most of the time I research, invent and test in accordance with the modern scientific method.
+When R&D stage gets ready enough, I move to pure software development, according requirements, target hardware and other conditions.
+If I am free to choose, I prefer to do everything as optimized as it's possible. So most of my production projects related to DL werre done with C++, OpenCV and Tensorflow.
+After that, if the project allows, follow test stage. I mean a serious testing of the system on exclusively real data, usually collected by us, with coverage of all user cases.
+When the test stage is done, usually I do a few iterations of project specific optimizations. That not always needed, but often.
+That can include many things: 
+ - Code analyze and optimization with or without tools
+ - Networks optimization with pruning, quantization and architecture adaptation
+ - Algorithms optimization, some tricks like backgroud analyze, frame skipping, batching, tracking and so on. That's very task-specific
+ - Total software optimization, thorough verification of module interaction and usage of all available resources
+
+This is how I usually work. Parts of the stages may not exist or they may look very different, it all depends on the project.
+Of course, in addition to this, there are completely different tasks from soldering somewhere and going to collect data yourself to a business trip to a client or speaking at a conference.
+But this is outsource, stern and merciless.
 
 <br>
 <section class="row">
@@ -22,16 +37,18 @@ I am active on such freelance recourses like <a href="https://www.upwork.com/fre
 					<li class="list-group-item active"><h4><strong>Main languages</strong></h4></li>
 					<li class="list-group-item">C++ since 2011 (03, 11, 14, 17)</li>
 					<li class="list-group-item">Python since 2013</li>
-					<li class="list-group-item active"><h4><strong>Also have some experience:</strong></h4></li>
-				  <li class="list-group-item">C</li>
+					<li class="list-group-item active"><h4><strong>:</strong></h4></li>
+				  <li class="list-group-item">Extensive experience</li>
+				  	<li class="list-group-item">QML</li>
 					<li class="list-group-item">Lua</li>
 					<li class="list-group-item">Javascript</li>
-					<li class="list-group-item">C#</li>
+					<li class="list-group-item active"><h4><strong>Had some experience in projects</strong></h4></li>
+					<li class="list-group-item">R</li>
+					<li class="list-group-item">Matlab</li>
 					<li class="list-group-item">Java</li>
-					<li class="list-group-item">HTML</li>
+					<li class="list-group-item">C#</li>
 					<li class="list-group-item">CSS</li>
 					<li class="list-group-item">SQL</li>
-					<li class="list-group-item">QML</li>
 					<li class="list-group-item">Visual Basic</li>
 				</ul>
 			</div>
@@ -39,15 +56,17 @@ I am active on such freelance recourses like <a href="https://www.upwork.com/fre
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Technologies skills</strong></h4></li>
 					<li class="list-group-item"><i>C++ Frameworks: </i>Qt (since 2011, any version, I love it), STL, Boost</li>
-					<li class="list-group-item"><i>Machine Learning methods: </i>Deep Neural networks, MLP, SVM, Random Forests, XGBoost, Nearest neighbor, Linear and Logistic regression, etc.</li>
-					<li class="list-group-item"><i>Machine Learning frameworks: </i>Torch, Caffe, OpenCV, Theano, Keras, a little TensorFlow.</li>
+					<li class="list-group-item"><i>Machine Learning methods: </i>Mainly CNN, RNN, Random Forests, XGBoost, Nearest neighbors, regressions, etc</li>
+					<li class="list-group-item"><i>Machine Learning frameworks: </i>Tensorflow (+ Lite), Torch, Caffe, OpenCV, Theano, Keras, MXNet</li>
+					<li class="list-group-item"><i>Convolutions neural networks: </i>Any tasks. Any architectures. From classification to instance segmentation. From AlexNet to NAS</li>
+					<li class="list-group-item"><i>Computer vision: </i>Experience with most of classical algorithms. Great experience with tracking algorithms.</li>
 					<li class="list-group-item"><i>Versions control: </i>Git, SVN</li>
-					<li class="list-group-item"><i>Build automation tools: </i>cmake, make, qmake, nmake, gradle</li>
+					<li class="list-group-item"><i>Build automation tools: </i>cmake, make, qmake, nmake, gradle, bazel</li>
 					<li class="list-group-item"><i>IDE: </i>Qt Creator, Visual Studio (any version ofc), WebStorm, PyCharm, Android Studio, Eclipse, R Studio, etc</li>
 					<li class="list-group-item"><i>Static and dynamic analyzers: </i>CppCheck, PVS-Studio, Valgrind</li>
 					<li class="list-group-item"><i>Installers: </i>NSIS, bash :)</li>
-					<li class="list-group-item"><i>Network technologies: </i> (UDP, TCP\IP, XML, JSON, REST API, etc)</li>
-					<li class="list-group-item"><i>Multithreading: </i>Qt Multithreading, OpenMP, C++ 11</li>
+					<li class="list-group-item"><i>Network technologies: </i> UDP, TCP\IP, XML, JSON, REST API, etc</li>
+					<li class="list-group-item"><i>Multithreading: </i>Qt Multithreading, OpenMP, C++ 11, Python MP</li>
 					<li class="list-group-item"><i>Other technologies: </i>dll, lib, WinAPI, COM</li>
 				</ul>
 			</div>
