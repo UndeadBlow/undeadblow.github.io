@@ -1,0 +1,395 @@
+I"D<p>Here you can find some examples of my projects.
+There are three main sections here:</p>
+
+<details class="category">
+<summary>Working projects</summary>
+<p class="details">
+Work projects, which were made during regular work. Big and long-term.
+<br /><br />
+<a class="seventh before after" href="#odrs">Radar System</a> - Project that emulates object detection Radar System.
+<br />
+<a class="seventh before after" href="#dashcam">Navmii Dashcam</a> - Mobile ADAS system, 1.5 years project.
+<br />
+</p>
+</details>
+
+<div style="line-height:20%;">
+    <br />
+</div>
+
+<details class="category">
+<summary>Freelance projects</summary>
+<p class="details">
+Freelance projects, which were made during my free time as additional income. Usually little or middle size.
+<br /><br />
+<a class="seventh before after" href="#gdocsearch">GDocSearch</a> - Live search through Google Drive documents.
+<br />
+<a class="seventh before after" href="#gametracker">GameTracker</a> - Game results tracker.
+<br />
+<a class="seventh before after" href="#wechat">WeChat</a> - Project for recording dialogs from Wechat service.
+<br />
+<a class="seventh before after" href="#youtube_downloader">YoutubeDownloader</a> - Downloading Youtube videos.
+<br />
+<a class="seventh before after" href="#video_uploader">VideoUploader</a> - Program that created for uploading videos to Yotuube, DailyMotion, Vimeo and Dropbox.
+<br />
+<a class="seventh before after" href="#sattva">SattvaMailer</a> - Messanger for social network VKontakte.
+<br />
+<a class="seventh before after" href="#proximity">ProximityAuth</a> - Servie for Biocad company that allow to use Biocad-cards for authorize in various programs and even login to Windows.
+<br />
+</p>
+</details>
+
+<div style="line-height:20%;">
+    <br />
+</div>
+
+<details class="category">
+<summary>Own and training projects</summary>
+<p class="details">
+My own and training projects.
+<br /><br />
+<a class="seventh before after" href="#open_translate">OpenTranslate</a> - Chrome extension for translate ENG to RUS and save words to dictionary.
+<br />
+<a class="seventh before after" href="#pandemic">PandemicCalc</a> - Program with math model of diseases spreading.
+<br />
+<a class="seventh before after" href="#ulmart">UlmartMonitoring</a> - Bot for tracking goods availability and prices in Internet shop.
+<br />
+</p>
+</details>
+<p><br />
+…or just navigate here all projects:</p>
+
+<hr />
+
+<!-- Just for navigation -->
+<div id="dashcam" style="">
+<a name="dashcam"></a>
+</div>
+
+<h3 style="text-transform:uppercase;color:gray">Navmii Dashcam</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2015 - 2017</h5>
+<p><span class="label btn-red">Machine Learning</span>
+<span class="label btn-red">Image Processing</span>
+<span class="label btn-red">OpenCV</span>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Python</span>
+<span class="label btn-red">Lua</span>
+<span class="label btn-red">Torch</span>
+<span class="label btn-red">Tensorflow</span>
+<span class="label btn-red">Caffe</span>
+<span class="label btn-red">Java</span>
+<span class="label btn-red">Android</span></p>
+
+<p>Very big, long-term project on which I’m worked at Navmii company.
+For a long time we developed ADAS <a href="https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems">Advanced Drive Assistance System</a> library for mobile platforms.</p>
+
+<p>Main purpose was to create mobile application for Google Play and AppStore, but we also intagrated the library in a variety of other company projects.</p>
+
+<p>So idea of main application is simple: user will be able to just download app to have system on his mobile phone that will warn him about collisions on road, signs, lanes and other dangers on road.</p>
+
+<p>In Jule 2017 app was released for GooglePlay. <a href="https://play.google.com/store/apps/details?id=com.navmii.android.dashcam&amp;hl=ru">You can find it here</a>.
+You can find some screenshots of application here below. Also you can find there screenshots of world map with detected (purely on user mobile, without any other information!) signs. It fantastic, check it.</p>
+
+<p>Many software utils were written during project, most interesting of them you can see also on screenshots below, so that project is not only about ADAS library, but also about many interesting ideas, tools, about research!</p>
+
+<p>During project I worked with very much external tools and technologies: most of shallow ML methods, Deep Learning, Convolutional Networks, Caffe, Torch, OpenCV and Tensorflow frameworks, Image Processing methods, etc, etc. I even got a little experience of Android programming :)</p>
+
+<p>On project working only 2 specialists, I and <a href="https://www.linkedin.com/in/dizvara/">Anton Varfolomeev</a>. Most of models were trained with data we collected and processed ourselves.</p>
+
+<p>Here, on screenshots, you can find:</p>
+<ul>
+<li>Video Detector - tool that plays videos and passes frames to networks. It can work with Caffe, Torch, Tensor models. Created for testing and debugging models, also for collecting new data. Here on screenshots presented mostly distance detection model.</li>
+<li>Annotation Tool - tool for annotation frames with many classes. For SSD networks.</li>
+<li>General Dashcam - mobile app with our library. Some of screenshot are with debug overlay to show you how it works. </li>
+<li>Navmii labs - world map with signs that were collected from users.</li>
+</ul>
+
+<p>On video there is another project with our library - Cocar.
+It is very special version of our library because Cocar has 180 degree camera and very hard limitations of computational power.</p>
+
+<details class="screenshot" id="dashcam">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+<div style="line-height:20%;">
+    <br />
+</div>
+<details class="video">
+<summary><div id="aligned-text">Videos</div></summary>
+<iframe id="boarded-like-image" width="896" height="504" src="https://www.youtube.com/embed/1IFp6TRLK_o" frameborder="0" allowfullscreen=""></iframe>
+</details>
+
+<hr />
+
+<!-- Just for navigation -->
+<div id="odrs" style="">
+<a name="odrs"></a>
+</div>
+
+<h3 style="text-transform:uppercase;color:gray">Radar System</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2015</h5>
+<p><span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">Low-Level Network</span>
+<span class="label btn-red">HTML</span>
+<span class="label btn-red">CSS</span></p>
+
+<p>Program that emulate radar system with very various options of radar parameters, painting options, reports and etc.
+Was created to use in pair with modeling server, that calculate all math and physic, but I can’t show that service because it is closed project
+ and I have not it’s sources. So, for presentation purposes I’ve created fake targets and recorded video. Enjoy it.</p>
+
+<p><i>Interface is only on Russian</i></p>
+
+<details class="screenshot" id="odrs">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+<div style="line-height:20%;">
+    <br />
+</div>
+<details class="video">
+<summary><div id="aligned-text">Videos</div></summary>
+<iframe id="boarded-like-image" width="896" height="504" src="https://www.youtube.com/embed/OS9GVCJooW0" frameborder="0" allowfullscreen=""></iframe>
+</details>
+
+<hr />
+
+<!-- Just for navigation -->
+<div id="gdocsearch" style="">
+<a name="gdocsearch"></a>
+</div>
+<!-- GDocSearch -->
+<h3 style="text-transform:uppercase;color:gray">GDocSearch</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2017</h5>
+<p><span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">REST API</span>
+<span class="label btn-red">HTML</span></p>
+
+<p>Program to live search in Google Documents, to copy rich text of sections that were found, to view it in web and etc.</p>
+
+<details class="screenshot" id="gdocsearch">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+<div style="line-height:20%;">
+    <br />
+</div>
+<details class="video">
+<summary><div id="aligned-text">Videos</div></summary>
+<iframe id="boarded-like-image" width="896" height="504" src="https://www.youtube.com/embed/RBJry3_UYyU" frameborder="0" allowfullscreen=""></iframe>
+</details>
+
+<hr />
+
+<!-- Just for navigation -->
+<div id="gametracker" style="">
+<a name="gametracker"></a>
+</div>
+
+<h3 style="text-transform:uppercase;color:gray">GameTracker</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2017</h5>
+<p><span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">OpenCV</span>
+<span class="label btn-red">Image Processing</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">REST API</span></p>
+
+<p>Program that detect win or loose user in game. For now only Hearthstone is supported, but more game will be added in future.</p>
+
+<p>Project was done for portal <a href="https://eloplay.com/" target="_blank">Eloplay</a>. You can check there in downloads my tracker.</p>
+
+<details class="screenshot" id="gametracker">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+<hr />
+
+<!-- Just for navigation -->
+<div id="youtube_downloader" style="">
+<a name="youtube_downloader"></a>
+</div>
+<!-- Youtube Downloader -->
+<h3 style="text-transform:uppercase;color:gray">Youtube Downloader</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2016</h5>
+<p><span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">HTML</span></p>
+
+<p>Simple freelance program for downloading videos from Youtube.
+Working through parsing source code of Youtube, no API methods was used.</p>
+
+<details class="screenshot" id="youtube_downloader">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+
+<hr />
+
+<!-- Just for navigation -->
+<div id="wechat" style="">
+<a name="wechat"></a>
+</div>
+<!-- WeChat -->
+<h3 style="text-transform:uppercase;color:gray">WeChat</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2016</h5>
+<p><a name="wechat"></a>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">HTML</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">Javascript</span></p>
+
+<p>That freelance project was created to saving all the dialogs from WeChat to database.
+So workflow is very simple, you run it, you login and you push Record button.
+After that everything will happen in WeChat will be recorded.</p>
+
+<details class="screenshot" id="wechat">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+
+<hr />
+
+<!-- Just for navigation -->
+<div id="video_uploader" style="">
+<a name="video_uploader"></a>
+</div>
+<!-- Video Uploader -->
+<h3 style="text-transform:uppercase;color:gray">Video Uploader</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2016</h5>
+<p><a name="video_uploader"></a>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">REST API</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">Javascript</span></p>
+
+<p>That program was created to upload videos to Youtube, DailyMotion, Vimeo and Dropbox.
+Workflow was desined as follows: you can choose video that you want to upload,
+then you can choose service from described above and then you can configure some options.
+After video is uploaded, you can’t choose the same service again (blurred icon on the screenshots).</p>
+
+<p>Working fully with API of listed services, no parsing code, only official methods.</p>
+
+<p>It’s really user-friendly and nice utility, with autofilling forms with information from video, animations, progress bar and etc.</p>
+
+<details class="screenshot" id="video_uploader">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+
+<hr />
+
+<div id="sattva" style="">
+<a name="sattva"></a>
+</div>
+<!-- SattvaMailer -->
+<h3 style="text-transform:uppercase;color:gray">Sattva Mailer</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2013</h5>
+<p><span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">VK API</span>
+<span class="label btn-red">HTML</span>
+<span class="label btn-red">Javascript</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">Webkit</span></p>
+
+<p>Messenger for <a href="https:\\vk.com">Vkontakte</a> (Russian social facebook-like network). Have huge functionality,
+works with Vkontakte API and WebKit browser from Qt. Many challenges were solved through interaction with the Javascript code. Allows to work with
+proxy and have flexible options. Supports many functions from site: add to friends, add friend to list, save all friends in file and many other automating options.</p>
+
+<p><i>Created for educational purposes, as example how to work with REST API</i></p>
+
+<details class="screenshot" id="sattva">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+
+<hr />
+
+<div id="proximity" style="">
+<a name="proximity"></a>
+</div>
+<!-- ProximityAuth -->
+<h3 style="text-transform:uppercase;color:gray">Proximity Auth</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2013</h5>
+<p><span class="label btn-red">C</span>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Win-API</span>
+<span class="label btn-red">Network</span>
+<span class="label btn-red">SQL</span>
+<span class="label btn-red">DLL</span></p>
+
+<p>Project for Biocad company. For security purposes it is without much of details.</p>
+
+<p>This software package allows Biocad-card users to safe run and authorize in various programs, list of which can be extended by admin with
+plugins (using Dynamic Link Libraries). Also it allows to login in Windows with user card.
+Project performed on Qt, but uses very low-level Windows tools, so it is not cross-platform.
+Many changes was solved durig work, because app must be very safe and flexible, and main challenge was to secure card-software interaction, to prevent grabbing information with Low-Level Hooks in Windows.</p>
+
+<details class="screenshot" id="proximity">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+
+<hr />
+
+<div id="open_translate" style="">
+<a name="open_translate"></a>
+</div>
+<!-- Open Translate -->
+<h3 style="text-transform:uppercase;color:gray">Open Translate</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2013</h5>
+<p><span class="label btn-red">Javascript</span>
+<span class="label btn-red">HTML</span>
+<span class="label btn-red">CSS</span></p>
+
+<p>My own project that I sometimes developing in my spare time. This is the Google Chrome extension for translation english words and sentences on russian.
+I started that project because current translators like LinguaLeo wants money for adding many words in your dictionary per day and I don’t like it.</p>
+
+<p>I have never worked before with Javascript, HTML and CSS before that project, but learned a few things in the process.
+For translation this extension uses three servises (at now) with open API: <a href="https://translate.yandex.ru/">Yandex.Translate</a>, <a href="https://mymemory.translated.net/">MyMemory</a> and <a href="http://www.frengly.com/">Frengly</a>.
+In the future, I’m planning to modify this exstension to save words to <a href="http://ankisrs.net/">Anki</a> format files to use it with this awesome program.</p>
+<details class="screenshot" id="open_translate">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+
+<hr />
+
+<div id="pandemic" style="">
+<a name="pandemic"></a>
+</div>
+<!-- Pandemic Calc -->
+<h3 style="text-transform:uppercase;color:gray">Pandemic Calc</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2012</h5>
+<p><a name="pandemic"></a>
+<span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">Math</span></p>
+
+<p>My training project within the discipline “Mathematic modeling”.
+This program allows to create and edit cities in which can be modeled (through the solution of differential equations) an epidemic of different diseases with different parameters.
+Also it allows to output different plots.</p>
+<details class="screenshot" id="pandemic">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+
+<hr />
+
+<div id="ulmart" style="">
+<a name="ulmart"></a>
+</div>
+<!-- Ulmart Monitoring -->
+<h3 style="text-transform:uppercase;color:gray">Ulmart Monitoring</h3>
+<h5 style="text-transform:uppercase;color:gray">Year 2011</h5>
+<p><span class="label btn-red">C++</span>
+<span class="label btn-red">Qt</span>
+<span class="label btn-red">HTML</span>
+<span class="label btn-red">Network</span></p>
+
+<p>My own project, that I wrote for myself. That program designed for parsing russian online shop “Ulmart” and monitoring prices for goods.
+When amount of good or price changes - program notifies user about event in various ways (sound, colored row in table and tray message).
+Program have different options, such as color setting, delay setting, sound enable\disable, etc.</p>
+
+<details class="screenshot" id="ulmart">
+<summary><div id="aligned-text">Screenshots</div></summary>
+</details>
+:ET
