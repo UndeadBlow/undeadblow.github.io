@@ -34,7 +34,8 @@ stackoverflow:  'http://stackoverflow.com/users/1781448/undeaddragon'
 github:			'https://github.com/UndeadBlow'
 coursera:		'https://www.coursera.org/user/i/3d260af9023ceff05012c1fef7f8b085'
 flickr:		'https://www.flickr.com/photos/131639781@N06/'
-upwork:		'https://www.upwork.com/freelancers/~0139a187ce476c2d01'
+#
+# upwork:		'https://www.upwork.com/freelancers/~0139a187ce476c2d01'
 
 # Google Analytics
 #gahandler: 'UA-52149651-1'

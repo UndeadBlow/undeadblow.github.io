@@ -134,8 +134,8 @@ If you want to know more, <a class="seventh before after" href="#bottom">here on
 		<ul>
 			<li>
 				<h4>Freelancer</h4>
-				<h5>September 2014 - Now</h5>
-				<p>As a hobby, sometimes I carry out projects on portals as Upwork.</p>
+				<h5>2013 - 2017</h5>
+				<!--<p>As a hobby, sometimes I carry out projects on portals as Upwork.</p>-->
 			</li>
 			<li>
 				<h4><a href="http://www.npk-pelengator.ru/" target="_blank" >NPK-Pelengator</a></h4>
@@ -149,7 +149,7 @@ If you want to know more, <a class="seventh before after" href="#bottom">here on
 			</li>
 			<li>
 				<h4><a href="http://lanit-tercom.com/" target="_blank" >Lanit-Tercom</a></h4>
-				<h5>August 2017 - Present</h5>
+				<h5>August 2017 - December 2020</h5>
 				<p>Research & Development Engineer</p>
 			</li>
 		</ul>
