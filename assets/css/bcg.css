@@ -183,6 +183,30 @@ background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparen
 	background-repeat: no-repeat;
 }
 
+.teleram-ico {
+	background-image: url('/assets/images/teleram_ico.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.teleram-ico-sm {
+	background-image: url('/assets/images/telegram_ico_sm.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.google-ico {
+	background-image: url('/assets/images/google_ico.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.google-ico-sm {
+	background-image: url('/assets/images/google_ico_sm.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .flickr-ico-sm {
 	background-image: url('/assets/images/flickr-ico-sm.png');
 	background-position: center;
